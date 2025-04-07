@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- 对于市政树的buff，应该都需要一个<String context="Description"></String> -->
+    <!-- 用来预览其效果 -->
+
+
+    <!-- 科举制 -->
+
+    <!-- 维护专家 -->
+    <Modifier id="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_HAPPINESS_MAINTENANCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_MAINTENANCE_EFFICIENCY">
+            <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+            <Argument name="Percent">33</Argument>
+            <String context="Description">LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_HAPPINESS_MAINTENANCE_DESCRIPTION</String>
+    </Modifier>
+
+    <!-- 农场+2幸福值 -->
+    <Modifier id="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_FARM_HAPPINESS" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_FARM_HAPPINESS_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- 首都+2专家上限。 -->
+	<Modifier id="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_CAP_INCREASE" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_WORKER_CAP" permanent="true">
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_CAP_INCREASE_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- 安西万里 -->
+
+    <!-- 从城邦征集单位时+50%[icon:YIELD_DIPLOMACY]影响力效用 -->
+    <Modifier id="MOD_PACIFY_THE_WEST_DIPLO_BONUS_CS_LEVY_UNIT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+		<Argument name="ActionType">DIPLOMACY_ACTION_CS_LEVY_UNIT</Argument>
+		<Argument name="Percent">50</Argument>
+		<String context="Description">LOC_MOD_PACIFY_THE_WEST_DIPLO_BONUS_CS_LEVY_UNIT_DESCRIPTION</String>
+	</Modifier>
+
+
+    <!-- 飞檐斗拱 -->
+
+    <!-- 亭台+2幸福值。 -->
+    <Modifier id="MOD_FEI_YAN_DOU_GONG_PAVILION_HAPPINESS_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="ConstructibleType">BUILDING_PAVILION</Argument>
+		<String context="Description">LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_HAPPINESS_YIELD_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- 建成亭台后获得1件遗物 -->
+    <Modifier id="MOD_FEI_YAN_DOU_GONG_PAVILION_RELIC" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_GREAT_WORK" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+				<Argument name="BuildingType">BUILDING_PAVILION</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ObjectType">GREATWORKOBJECT_RELIC</Argument>
+        <String context="Description">LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_RELIC_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- 藩镇 -->
+
+    <!-- +2定居点上限 -->
+    <Modifier id="MOD_FAN_ZHEN_SETTLEMENT_CAP_INCREASE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_MOD_FAN_ZHEN_SETTLEMENT_CAP_INCREASE_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- 节度使获得1次免费晋升。 -->
+    <Modifier id="MOD_FAN_ZHEN_ARMY_COMMANDER_PROMOTION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="true" permanent="true">
+        <SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_ARMY_COMMANDER</Argument>
+			</Requirement>
+		</SubjectRequirements>
+        <Argument name="Amount">1</Argument>
+        <String context="Description">LOC_MOD_FAN_ZHEN_ARMY_COMMANDER_PROMOTION_DESCRIPTION</String>
+    </Modifier>
+
+    <!-- 拥有专业化的城镇+100%金币。 -->
+    <Modifier id="MOD_FAN_ZHEN_SPECIALIZED_TOWN_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">100</Argument>
+		<String context="Description">LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_YIELD_DESCRIPTION</String>
+	</Modifier>
+    <!-- 每座拥有专业化的城镇都使首都-3金币。 -->
+    <Modifier id="MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">	
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="HasAnyProject">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF_ACTION</Argument>
+		<String context="Description">LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF_DESCRIPTION</String>
+	</Modifier>
+    <Modifier id="MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF_ACTION" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="Amount">-3</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Tooltip">LOC_CIVIC_FAN_ZHEN_NAME</Argument>
+	</Modifier>
+	
+	
+</GameEffects>

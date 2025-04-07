@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+    
+		<!-- Tang -->
+		<Row>
+			<ID>ICON_CIVILIZATION_TANG_CHINA</ID>
+			<Path>fs://game/tang-china/textures/civ_sym_tang_china</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_TANG_CHINA</ID>
+			<Path>fs://game/tang-china/textures/civ_sym_tang_china</Path>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_TANG_CHINA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/tang-china/textures/lsbg_tang_1080.png</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_TANG_CHINA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/tang-china/textures/lsbg_tang_720.png</Path>
+			<IconSize>720</IconSize>
+		</Row>
+
+		<Row>
+			<ID>civ_sym_tang_china</ID>
+			<Path>fs://game/tang-china/textures/civ_sym_tang_china</Path>
+		</Row>
+		
+
+		<!-- diplomacy -->
+		<Row>
+			<ID>dip_cs_tang_china</ID>
+			<Path>fs://game/tang-china/textures/dip_cs_tang_china</Path>
+		</Row>
+
+		<!-- civic -->
+		<Row>
+			<ID>cult_tang_china</ID>
+			<Path>fs://game/tang-china/textures/cult_tang_china.png</Path>
+		</Row>		
+
+
+		<!-- improvement -->
+		<Row>
+      		<ID>IMPROVEMENT_TANG_FRONTIER_COMMAND</ID>
+      		<Path>fs://game/tang-china/textures/impicon_tangfrontiercommand.png</Path>
+   		 </Row>
+
+		 <!-- unit -->
+		 <Row>
+			<ID>UNIT_TANG_BLACK_ARMOURED_CAVALRY</ID>
+			<Path>fs://game/tang-china/textures/unitflag_tang_bac.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_TANG_BLACK_ARMOURED_CAVALRY_2</ID>
+			<Path>fs://game/tang-china/textures/unitflag_tang_bac.png</Path>
+		</Row>
+		<Row>
+			<ID>UNIT_TANG_BLACK_ARMOURED_CAVALRY_3</ID>
+			<Path>fs://game/tang-china/textures/unitflag_tang_bac.png</Path>
+		</Row>
+
+		<Row>
+			<ID>UNIT_JIE_DU_SHI</ID>
+			<Path>fs://game/tang-china/textures/unitflag_jiedushi.png</Path>
+		</Row>
+		
+		
+	</IconDefinitions>
+    <IconAliases>
+
+
+    </IconAliases>
+
+</Database>

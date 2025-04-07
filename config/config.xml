@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+        <Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" CivilizationName="LOC_CIVILIZATION_TANG_CHINA_NAME" CivilizationFullName="LOC_CIVILIZATION_TANG_CHINA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_TANG_CHINA_DESCRIPTION" CivilizationIcon="civ_sym_tang_china"/>
+	</Civilizations>
+	<CivilizationItems>
+        <Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" Type="TRAIT_TANG_CHINA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_TANG_CHINA_ABILITY_NAME" Description="LOC_TRAIT_TANG_CHINA_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Kind="KIND_UNIT" Name="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" Description="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_BASE_DESCRIPTION" Icon="ICON_UNIT_TANG_BLACK_ARMOURED_CAVALRY"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" Type="UNIT_JIE_DU_SHI" Kind="KIND_UNIT" Name="LOC_UNIT_JIE_DU_SHI_NAME" Description="LOC_UNIT_JIE_DU_SHI_DESCRIPTION" Icon="ICON_UNIT_JIE_DU_SHI"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Kind="KIND_IMPROVEMENT" Name="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_NAME" Description="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_DESCRIPTION" Icon="ICON_IMPROVEMENT_TANG_FRONTIER_COMMAND"/>
+		
+
+    </CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" TagType="TAG_TRAIT_POLITICAL"/>
+
+	</CivilizationTags>
+	<CivilizationUnlocks>
+        <Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HAN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_TANG_CHINA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_TANG_CHINA_NAME" Description="LOC_CIVILIZATION_TANG_CHINA_DESCRIPTION" Icon="CIVILIZATION_TANG_CHINA"/>
+    </CivilizationUnlocks>
+	<LeaderUnlocks>
+        <Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_TANG_CHINA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_TANG_CHINA_NAME" Description="LOC_CIVILIZATION_TANG_CHINA_DESCRIPTION" Icon="CIVILIZATION_TANG_CHINA"/>
+    </LeaderUnlocks>
+	<LeaderCivilizationBias>
+		<!--This is the table used for UI, the AI uses LeaderCivPriorities in civilizations.xml-->
+        <Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_TANG_CHINA" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TANG_CHINA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+    </LeaderCivilizationBias>
+
+</Database>

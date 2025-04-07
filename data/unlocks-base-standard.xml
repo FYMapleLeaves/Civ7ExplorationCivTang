@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_TANG_CHINA" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA"/>
+
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" Name="LOC_CIVILIZATION_TANG_CHINA_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_TANG_CHINA" CivUnlock="true"/>
+	</UnlockRewards>
+	<RequirementSets>
+		
+		<Row RequirementSetId="REQSET_PLAYER_HAS_3_SILK_IMPROVED_TANG" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_2_TRIBUTARIES_TANG" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<Requirements>
+
+		<Row RequirementId="REQ_PLAYER_HAS_3_SILK_IMPROVED_TANG" RequirementType="REQUIREMENT_PLAYER_TOTAL_IMPROVED_RESOURCES"/>
+		<Row RequirementId="REQ_PLAYER_HAS_2_TRIBUTARIES_TANG" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_TRIBUTARIES"/>
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="REQ_PLAYER_HAS_3_SILK_IMPROVED_TANG" Name="ResourceType" Value="RESOURCE_SILK"/>
+		<Row RequirementId="REQ_PLAYER_HAS_3_SILK_IMPROVED_TANG" Name="Amount" Value="3"/>
+
+		<Row RequirementId="REQ_PLAYER_HAS_2_TRIBUTARIES_TANG" Name="Amount" Value="2"/>
+
+	</RequirementArguments>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="REQSET_PLAYER_HAS_3_SILK_IMPROVED_TANG" RequirementId="REQ_PLAYER_HAS_3_SILK_IMPROVED_TANG"/>
+        <Row RequirementSetId="REQSET_PLAYER_HAS_3_SILK_IMPROVED_TANG" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
+
+		<Row RequirementSetId="REQSET_PLAYER_HAS_2_TRIBUTARIES_TANG" RequirementId="REQ_PLAYER_HAS_2_TRIBUTARIES_TANG"/>
+        <Row RequirementSetId="REQSET_PLAYER_HAS_2_TRIBUTARIES_TANG" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
+
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+        <InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" RequirementSetId="REQSET_LEADER_IS_CONFUCIUS" Description="LOC_UNLOCK_PLAY_AS_CONFUCIUS_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TANG_CHINA_TOOLTIP"/>
+
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" RequirementSetId="REQSET_PLAYER_HAS_3_SILK_IMPROVED_TANG" Description="LOC_UNLOCK_SILK_TANG_CHINA_DESCRIPTION" Tooltip="LOC_UNLOCK_SILK_TANG_CHINA_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" RequirementSetId="REQSET_PLAYER_HAS_2_TRIBUTARIES_TANG" Description="LOC_UNLOCK_CITY_STATES_TANG_CHINA_DESCRIPTION" Tooltip="LOC_UNLOCK_CITY_STATES_TANG_CHINA_TOOLTIP"/>
+        
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" ConfigurationValue="CIVILIZATION_TANG_CHINA"/>
+	</UnlockConfigurationValues>
+</Database>

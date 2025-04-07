@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Improvements -->
+		<Row Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Kind="KIND_CONSTRUCTIBLE"/>
+		
+	</Types>
+	<TypeQuotes>
+
+    </TypeQuotes>
+	<Constructibles>
+        <!-- Civ Unique Improvements -->
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" Name="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_NAME" Description="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="90" Population="0" Age="AGE_EXPLORATION"/>
+	</Constructibles>
+	<Buildings>
+	</Buildings>
+	<Improvements>
+		<!-- Civ Unique Improvements -->
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_TANG_CHINA" SameAdjacentValid="false"/>
+    </Improvements>
+	<Wonders>
+
+	</Wonders>
+	<Tags>
+		<Row Tag="TANG_FRONTIER_COMMAND" Category="CONSTRUCTIBLE_TAG"/>
+	</Tags>
+	<TypeTags>
+		
+		<!-- Civ Unique Improvements -->
+		<Row Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Tag="FORTIFICATION"/>
+		<Row Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Tag="AGELESS"/>
+
+		<Row Type="IMPROVEMENT_TANG_FRONTIER_COMMAND" Tag="TANG_FRONTIER_COMMAND"/>
+		
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" DistrictType="DISTRICT_RURAL"/>
+		
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_ValidTerrains>
+	<Constructible_YieldChanges>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<!-- Civ Uniques -->
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" YieldChangeId="FrontierCommandDiplomacy"/>
+
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Civ Uniques -->
+        <!-- FRONTIER_COMMAND -->
+        <Row ID="FrontierCommandDiplomacy" YieldType="YIELD_DIPLOMACY" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+
+	</Adjacency_YieldChanges>
+	<Constructible_WarehouseYields>
+
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+        <!-- Civ Uniques -->
+
+	</Warehouse_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" PlunderType="PLUNDER_HEAL" Amount="30"/>
+
+	</Constructible_Plunders>
+	<ConstructibleModifiers>
+		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
+		<!-- Civ Uniques -->
+
+        <!-- 如果建造在非您创建的城市中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。 -->
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" ModifierId="MOD_TANG_FRONTIER_COMMAND_TRADE_ROUTE_CAPACITY"/>
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" ModifierId="MOD_TANG_FRONTIER_COMMAND_TRADE_ROUTE_RANGE"/>
+
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+
+	</UniqueQuarters>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" AdvisoryClassType="ADVISORY_CLASS_DIPLOMACY"/>
+		<Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" AdvisoryClassType="ADVISORY_CLASS_DEFENSE"/>
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+
+	</Constructible_Advisories>
+</Database>

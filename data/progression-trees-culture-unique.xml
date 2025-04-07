@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Database>
+	<Types>
+		<!--Civ Unique Mastery Trees-->
+
+		<Row Type="TREE_CIVICS_EX_TANG" Kind="KIND_TREE"/>
+
+		<!--Civ Unique Mastery Tree Nodes-->
+		
+		<!--Tang-->
+		<Row Type="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_TANG_FAN_ZHEN" Kind="KIND_TREE_NODE"/>
+		
+	
+	</Types>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" Quote="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_QUOTE" QuoteAuthor="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_AUTHOR" QuoteAudio=""/>
+		<Row Type="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" Quote="LOC_CIVIC_PACIFY_THE_WEST_QUOTE" QuoteAuthor="LOC_CIVIC_PACIFY_THE_WEST_AUTHOR" QuoteAudio=""/>
+		<Row Type="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" Quote="LOC_CIVIC_FEI_YAN_DOU_GONG_QUOTE" QuoteAuthor="LOC_CIVIC_FEI_YAN_DOU_GONG_AUTHOR" QuoteAudio=""/>
+		<Row Type="NODE_CIVIC_EX_TANG_FAN_ZHEN" Quote="LOC_CIVIC_FAN_ZHEN_QUOTE" QuoteAuthor="LOC_CIVIC_FAN_ZHEN_AUTHOR" QuoteAudio=""/>
+	</TypeQuotes>
+	<ProgressionTrees>
+		<!--Civ Unique Mastery Trees-->
+		<Row ProgressionTreeType="TREE_CIVICS_EX_TANG" AgeType="AGE_EXPLORATION" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_TANG_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<!--Civ Unique Mastery Tree Nodes-->
+		<!--Tang-->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" ProgressionTree="TREE_CIVICS_EX_TANG" Cost="500" Name="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_NAME" IconString="cult_tang_china" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" ProgressionTree="TREE_CIVICS_EX_TANG" Cost="500" Name="LOC_CIVIC_PACIFY_THE_WEST_NAME" IconString="cult_tang_china" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" ProgressionTree="TREE_CIVICS_EX_TANG" Cost="800" Name="LOC_CIVIC_FEI_YAN_DOU_GONG_NAME" IconString="cult_tang_china" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" ProgressionTree="TREE_CIVICS_EX_TANG" Cost="1000" Name="LOC_CIVIC_FAN_ZHEN_NAME" IconString="cult_tang_china" />
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!--Civ Unique Tree Mastery Node Unlocks-->
+		<!--Tang-->
+		<!-- <Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_TRADITION" TargetType="TRADITION_TANG_POETRY" UnlockDepth="1"/> -->
+		<!-- <Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_TRADITION" TargetType="TRADITION_MERCENARY_RECRUIT_SYSTEM" UnlockDepth="1"/> -->
+		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_TRADITION" TargetType="TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_HAPPINESS_MAINTENANCE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_FARM_HAPPINESS" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_CAP_INCREASE" UnlockDepth="2"/>
+		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" TargetKind="KIND_TRADITION" TargetType="TRADITION_JI_MI_SYSTEM" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_TANG_FRONTIER_COMMAND" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" TargetKind="KIND_MODIFIER" TargetType="MOD_EX_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST" TargetKind="KIND_MODIFIER" TargetType="MOD_PACIFY_THE_WEST_DIPLO_BONUS_CS_LEVY_UNIT" UnlockDepth="2"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" TargetKind="KIND_TRADITION" TargetType="TRADITION_TANG_POETRY" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" TargetKind="KIND_MODIFIER" TargetType="MOD_FEI_YAN_DOU_GONG_PAVILION_HAPPINESS_YIELD" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" TargetKind="KIND_MODIFIER" TargetType="MOD_FEI_YAN_DOU_GONG_PAVILION_RELIC" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_FORBIDDEN_CITY" UnlockDepth="2" AIIgnoreUnlockValue="true"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" TargetKind="KIND_TRADITION" TargetType="TRADITION_MERCENARY_RECRUIT_SYSTEM" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" TargetKind="KIND_MODIFIER" TargetType="MOD_FAN_ZHEN_ARMY_COMMANDER_PROMOTION" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" TargetKind="KIND_MODIFIER" TargetType="MOD_FAN_ZHEN_SETTLEMENT_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" TargetKind="KIND_MODIFIER" TargetType="MOD_FAN_ZHEN_SPECIALIZED_TOWN_YIELD" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_TANG_FAN_ZHEN" TargetKind="KIND_MODIFIER" TargetType="MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF" UnlockDepth="2"/>
+	
+	</ProgressionTreeNodeUnlocks>
+
+	<ProgressionTreePrereqs>
+		<!--Civ Unique Tree Mastery Organization-->
+		
+		<!--Tang-->
+		<Row Node="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" PrereqNode="NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM"/>
+		<Row Node="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG" PrereqNode="NODE_CIVIC_EX_TANG_PACIFY_THE_WEST"/>
+		<Row Node="NODE_CIVIC_EX_TANG_FAN_ZHEN" PrereqNode="NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG"/>
+	</ProgressionTreePrereqs>
+</Database>

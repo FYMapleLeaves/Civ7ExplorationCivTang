@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="tang-china" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_TANG_CHINA_NAME</Name>
+		<Description>LOC_MODULE_TANG_CHINA_DESCRIPTION</Description>
+		<Authors>LOC_MODULE_TANG_CHINA_AUTHOR</Authors>
+		<Package>MOD</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="age-exploration" title="LOC_MODULE_AGE_EXPLORATION_NAME"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>	
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-tang" scope="game" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+
+					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/civilizations-legacy.xml</Item>
+
+					<Item>data/traditions.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+
+				</UpdateDatabase>
+
+				<UpdateText>
+					<Item>text/en_US_Text.xml</Item>
+
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">text/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+
+				<ImportFiles>
+                    <Item>textures/lsbg_tang_1080.png</Item>
+					<Item>textures/lsbg_tang_720.png</Item>
+
+					<Item>textures/dip_cs_tang_china</Item>
+
+					<Item>textures/civ_sym_tang_china</Item>	
+
+					<Item>textures/cult_tang_china.png</Item>
+					
+					<Item>textures/impicon_tangfrontiercommand.png</Item>
+
+					<Item>textures/unitflag_tang_bac.png</Item>
+					<Item>textures/unitflag_jiedushi.png</Item>						
+                </ImportFiles>
+
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+
+			</Actions>
+		</ActionGroup>
+
+		<ActionGroup id="age-antiquity-current-tang" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+
+					<Item>data/unlocks-antiquity.xml</Item>
+			
+				</UpdateDatabase>
+				
+			</Actions>
+		</ActionGroup>
+	
+		<ActionGroup id="age-exploration-persist-tang" scope="game" criteria="exploration-age-persist">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/constructibles.xml</Item>
+					<Item>data/constructibles-gameeffects.xml</Item>
+
+				</UpdateDatabase>
+				
+			</Actions>
+		</ActionGroup>
+		
+		<ActionGroup id="age-exploration-current-tang" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/AI_Exploration.xml</Item>
+					<Item>data/citizen-names.xml</Item>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/civilizations-exploration-gameeffects.xml</Item>
+		
+					<Item>data/loading-info-exploration.xml</Item>
+
+					<Item>data/movies.xml</Item>
+					<Item>data/named-places.xml</Item>		
+
+					<Item>data/progression-trees-culture-unique.xml</Item>
+					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
+					<Item>data/progression-trees-tech.xml</Item>
+
+					<Item>data/units.xml</Item>		
+					<Item>data/units-gameeffects.xml</Item>		
+
+					<Item>data/unlocks-exploration.xml</Item>				
+			
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		
+		<ActionGroup id="shell-tang" scope="shell" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+
+				</UpdateDatabase>
+
+				<ImportFiles>
+                    <Item>textures/lsbg_tang_1080.png</Item>
+					<Item>textures/lsbg_tang_720.png</Item>
+
+					<Item>textures/dip_cs_tang_china</Item>
+
+					<Item>textures/civ_sym_tang_china</Item>
+
+					<Item>textures/cult_tang_china.png</Item>
+
+					<Item>textures/impicon_tangfrontiercommand.png</Item>
+
+					<Item>textures/unitflag_tang_bac.png</Item>
+					<Item>textures/unitflag_jiedushi.png</Item>					
+                </ImportFiles>
+
+				<UpdateIcons>
+					<Item>icons/icons.xml</Item>
+				</UpdateIcons>
+
+				<UpdateText>
+					<Item>text/en_US_Text.xml</Item>
+
+					<Item locale="zh_Hans_CN">text/zh_Hans_CN_Text.xml</Item>
+					<Item locale="zh_Hant_HK">text/zh_Hant_HK_Text.xml</Item>
+				</UpdateText>
+
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

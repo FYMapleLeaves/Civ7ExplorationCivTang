@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Movies>
+		<!-- Defeat movie with civ-specific audio. -->
+
+		<Row MovieType="MOVIE_DEFEAT_TANG_CHINA" Locale="en_US" Resolution="720" Url="fs://game/age-exploration/movies/DEFEAT_EXPL_720p.webm" Audio="play_wilco_civ_loss_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_defeat.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_DEFEAT_TANG_CHINA" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/DEFEAT_EXPL_1080p.webm" Audio="play_wilco_civ_loss_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_defeat.vtt" UseCoverFitMode="true" />
+
+
+        <Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_ECONOMIC" Locale="en_US" Resolution="720" Url="fs://game/age-exploration/movies/AT_Ming_720p.webm" Audio="play_wilco_civ_economic_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_economic.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_ECONOMIC" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/AT_Ming_1080p.webm" Audio="play_wilco_civ_economic_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_economic.vtt" UseCoverFitMode="true" />
+
+        <Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_MILITARY" Locale="en_US" Resolution="720" Url="fs://game/age-exploration/movies/AT_Ming_720p.webm" Audio="play_wilco_civ_military_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_military.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_MILITARY" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/AT_Ming_1080p.webm" Audio="play_wilco_civ_military_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_military.vtt" UseCoverFitMode="true" />
+
+        <Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_SCIENCE" Locale="en_US" Resolution="720" Url="fs://game/age-exploration/movies/AT_Ming_720p.webm" Audio="play_wilco_civ_science_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_science.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_SCIENCE" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/AT_Ming_1080p.webm" Audio="play_wilco_civ_science_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_science.vtt" UseCoverFitMode="true" />
+
+        <Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" Locale="en_US" Resolution="720" Url="fs://game/age-exploration/movies/AT_Ming_720p.webm" Audio="play_wilco_civ_culture_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_culture.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/AT_Ming_1080p.webm" Audio="play_wilco_civ_culture_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_culture.vtt" UseCoverFitMode="true" />
+
+
+	</Movies>
+
+	<EndGameMovies>
+
+		<!-- Defeats (Civ Specific) -->
+		
+		<Row DefeatType="DEFEAT_DEFAULT" CivilizationType="CIVILIZATION_TANG_CHINA" Priority="450" MovieType="MOVIE_DEFEAT_TANG_CHINA" />
+		<Row DefeatType="DEFEAT_RETIRE" CivilizationType="CIVILIZATION_TANG_CHINA" Priority="460" MovieType="MOVIE_DEFEAT_TANG_CHINA" />
+
+
+		<!-- Age Transition/Legacy Points Victory -->
+		
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_ECONOMIC" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_ECONOMIC" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_MILITARY" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_MILITARY" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_SCIENCE" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_CULTURE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" />
+
+	</EndGameMovies>
+</Database>

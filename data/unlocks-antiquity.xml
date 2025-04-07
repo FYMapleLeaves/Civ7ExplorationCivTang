@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_TANG_CHINA" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA"/>
+
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" Name="LOC_CIVILIZATION_TANG_CHINA_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_TANG_CHINA" CivUnlock="true"/>
+
+	</UnlockRewards>
+	<RequirementSets>
+
+
+	</RequirementSets>
+	<Requirements>
+
+
+	</Requirements>
+	<RequirementArguments>
+
+
+	</RequirementArguments>
+	<RequirementSetRequirements>
+
+
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" RequirementSetId="REQSET_CIV_IS_HAN" Description="LOC_UNLOCK_PLAY_AS_HAN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HAN_TANG_CHINA_TOOLTIP"/>
+
+
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_TANG_CHINA" ConfigurationValue="CIVILIZATION_TANG_CHINA"/>
+
+	</UnlockConfigurationValues>
+</Database>

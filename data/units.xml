@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!--Civ Unique Military-->
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Kind="KIND_UNIT"/>
+		
+		<!--Civ Unique Civilian-->
+		<Row Type="UNIT_JIE_DU_SHI" Kind="KIND_UNIT"/>
+
+		<!--Civ Unique Abilities-->
+		<Row Type="ABILITY_JIE_DU_SHI" Kind="KIND_ABILITY"/>
+        <Row Type="ABILITY_JIE_DU_SHI_ACTIVE" Kind="KIND_ABILITY"/>
+
+        <Row Type="ABILITY_TANG_BAC" Kind="KIND_ABILITY"/>
+
+	</Types>
+	<Units>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Name="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" Description="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_DESCRIPTION" Tier="1" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_TANG_CHINA"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Name="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" Description="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_2_DESCRIPTION" Tier="2" Maintenance="3" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_TANG_CHINA"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Name="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" Description="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_3_DESCRIPTION" Tier="3" Maintenance="4" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_TANG_CHINA"/>
+		
+        <!-- extra 4 Maintenance -->
+        <Row UnitType="UNIT_JIE_DU_SHI" Name="LOC_UNIT_JIE_DU_SHI_NAME" Description="LOC_UNIT_JIE_DU_SHI_DESCRIPTION" Maintenance="4" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_MOUNTED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CanEarnExperience="true" CostProgressionParam1="40" TraitType="TRAIT_TANG_CHINA" PromotionClass="PROMOTION_CLASS_LAND_COMMANDER"/>
+		
+    </Units>
+	<Unit_Stats>
+		
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Combat="40"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Combat="45"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Combat="50"/>
+
+		<Row UnitType="UNIT_JIE_DU_SHI"/>
+
+	</Unit_Stats>
+	<Unit_Costs>
+		
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY" YieldType="YIELD_PRODUCTION" Cost="150"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" YieldType="YIELD_PRODUCTION" Cost="190"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" YieldType="YIELD_PRODUCTION" Cost="240"/>
+		
+		<Row UnitType="UNIT_JIE_DU_SHI" YieldType="YIELD_PRODUCTION" Cost="100"/>
+
+	</Unit_Costs>
+	<Unit_RequiredConstructibles>
+
+	</Unit_RequiredConstructibles>
+	<UnitUpgrades>
+		
+		<Row Unit="UNIT_TANG_BLACK_ARMOURED_CAVALRY" UpgradeUnit="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2"/>
+		<Row Unit="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" UpgradeUnit="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3"/>
+
+	</UnitUpgrades>
+	<UnitReplaces>
+		<!--Civ Unique Military-->
+		
+		<Row CivUniqueUnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY" ReplacesUnitType="UNIT_COURSER"/>
+		<Row CivUniqueUnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" ReplacesUnitType="UNIT_LANCER"/>
+
+		<!--Civ Unique Civilian-->
+		<Row CivUniqueUnitType="UNIT_JIE_DU_SHI" ReplacesUnitType="UNIT_ARMY_COMMANDER"/>
+
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+		<Row UnitType="UNIT_JIE_DU_SHI"/>
+
+	</Unit_TransitionRetains>
+	<Unit_TransitionShadows>
+
+	</Unit_TransitionShadows>
+	<Unit_ShadowReplacements>
+
+	</Unit_ShadowReplacements>
+	<Tags>
+		
+		<!--Civ Unique Military-->
+		<Row Tag="UNIT_CLASS_TANG_BAC" Category="UNIT_CLASS"/>
+
+		<!--Civ Unique Civilian-->
+		<Row Tag="UNIT_CLASS_JIE_DU_SHI" Category="UNIT_CLASS"/>
+
+	</Tags>
+	<TypeTags>
+		
+		<!--Civ Unique Military-->	
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Tag="UNIT_CLASS_TANG_BAC"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Tag="UNIT_CLASS_TANG_BAC"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Tag="UNIT_CLASS_MOUNTED"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Tag="UNIT_CLASS_CAVALRY"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Tag="UNIT_CLASS_TANG_BAC"/>
+		<Row Type="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Tag="UNIT_CLASS_ELITE_CAVALRY"/>
+		
+		<!--Civ Unique Civilian-->
+		<Row Type="UNIT_JIE_DU_SHI" Tag="UNIT_CLASS_COMMAND"/>
+		<Row Type="UNIT_JIE_DU_SHI" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row Type="UNIT_JIE_DU_SHI" Tag="UNIT_CLASS_JIE_DU_SHI"/>
+
+	</TypeTags>
+	<UnitClass_Abilities>
+		<Row UnitAbilityType="ABILITY_JIE_DU_SHI" UnitClassType="UNIT_CLASS_JIE_DU_SHI"/>
+        <Row UnitAbilityType="ABILITY_JIE_DU_SHI_ACTIVE" UnitClassType="UNIT_CLASS_JIE_DU_SHI"/>
+
+         <Row UnitAbilityType="ABILITY_TANG_BAC" UnitClassType="UNIT_CLASS_TANG_BAC"/>
+		
+	</UnitClass_Abilities>
+	<UnitAbilities>
+		
+		<!--Unique-->
+		<Row UnitAbilityType="ABILITY_JIE_DU_SHI" Name="LOC_ABILITY_JIE_DU_SHI_NAME" Description="LOC_ABILITY_JIE_DU_SHI_DESCRIPTION"/>
+        <Row UnitAbilityType="ABILITY_JIE_DU_SHI_ACTIVE" Inactive="true" Permanent="false"/>
+
+        <Row UnitAbilityType="ABILITY_TANG_BAC" Name="LOC_ABILITY_TANG_BAC_NAME" Description="LOC_ABILITY_TANG_BAC_DESCRIPTION"/>
+        
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		
+		<!--Unique-->
+
+        <!-- 驻扎在区块中时，此城市生产陆地单位+50%生产力效用，此城市中的大都护府+2金币。 -->
+		<Row UnitAbilityType="ABILITY_JIE_DU_SHI" ModifierId="MOD_ABILITY_JIE_DU_SHI_GRANT_ABILITY"/>
+        <Row UnitAbilityType="ABILITY_JIE_DU_SHI_ACTIVE" ModifierId="MOD_ABILITY_JIE_DU_SHI_UNIT_PRODUCTION"/>
+        <Row UnitAbilityType="ABILITY_JIE_DU_SHI_ACTIVE" ModifierId="MOD_ABILITY_JIE_DU_SHI_IMP_GOLD"/>
+
+        <!-- 防御时+3战斗力，夹击时+50%加成。 -->
+        <Row UnitAbilityType="ABILITY_TANG_BAC" ModifierId="MOD_ABILITY_TANG_BAC_INCREASE_COMBAT_STRENGTH"/>
+        <Row UnitAbilityType="ABILITY_TANG_BAC" ModifierId="MOD_ABILITY_TANG_BAC_INCREASE_DEFEND_STRENGTH"/>
+		
+	</UnitAbilityModifiers>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_UNIT_CLASS_TANG_BAC" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_UNIT_CLASS_TANG_BAC" RequirementId="REQ_UNIT_CLASS_TANG_BAC"/>
+
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_UNIT_CLASS_TANG_BAC" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
+
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_UNIT_CLASS_TANG_BAC" Name="Tag" Value="UNIT_CLASS_TANG_BAC"/>
+
+	</RequirementArguments>
+	<Unit_Advisories>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+
+		<Row UnitType="UNIT_JIE_DU_SHI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+
+	</Unit_Advisories>
+</Database>

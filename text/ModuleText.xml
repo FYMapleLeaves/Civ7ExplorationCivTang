@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_TANG_CHINA_NAME">
+			<Text>Exploration Age Civilization: Tang</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_TANG_CHINA_DESCRIPTION">
+			<Text>Contains a new exploration age Civilization, the Tang dynasty of China.</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_TANG_CHINA_AUTHOR">
+			<Text>Maple_Leaves</Text>
+		</Row>
+	</EnglishText>
+
+  <LocalizedText>
+    <Replace Tag="LOC_MODULE_TANG_CHINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>包含探索时代新文明唐朝。</Text>
+    </Replace>
+    <Replace Tag="LOC_MODULE_TANG_CHINA_NAME" Language="zh_Hans_CN">
+      <Text>中国唐朝</Text>
+    </Replace>
+	<Replace Tag="LOC_MODULE_TANG_CHINA_AUTHOR" Language="zh_Hans_CN">
+      <Text>枫叶(Maple_Leaves)</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MODULE_TANG_CHINA_DESCRIPTION" Language="zh_Hant_HK">
+      <Text>包含新的探索時代文明「唐朝」。</Text>
+    </Replace>
+    <Replace Tag="LOC_MODULE_TANG_CHINA_NAME" Language="zh_Hant_HK">
+      <Text>中國唐朝</Text>
+    </Replace>
+	<Replace Tag="LOC_MODULE_TANG_CHINA_AUTHOR" Language="zh_Hant_HK">
+      <Text>枫叶(Maple_Leaves)</Text>
+    </Replace>
+  </LocalizedText>
+</Database>

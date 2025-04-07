@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<!-- ==================================================	-->
+	<!--	TANG							-->
+	<!-- ==================================================	-->
+
+	<Modifier id="MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_ATTACH" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_ATTACH</Argument>
+	</Modifier>
+	<Modifier id="MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_ATTACH" collection="COLLECTION_CITY_CONSTRUCTIBLES" effect="EFFECT_ATTACH_MODIFIERS">	
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_HAS_CONSTRUCTIBLE">
+				<Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_UNITS_ATTACH</Argument>
+	</Modifier>
+	<Modifier id="MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_UNITS_ATTACH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ATTACH_MODIFIERS">	
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_DOMAIN_MATCHES">
+				<Argument name="UnitDomain">DOMAIN_LAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_UNITS_ACTION</Argument>
+	</Modifier>
+	<Modifier id="MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_CONSTRUCTIBLES_UNITS_ACTION" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_TANG_CHINA_COMBAT_STRENGTH_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="MOD_TANG_CHINA_PALACE_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">4</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+		<String context="Description">LOC_MOD_TANG_CHINA_PALACE_DIPLOMACY_DESCRIPTION</String>
+	</Modifier>
+
+
+	<!-- 测试用的 -->
+	<Modifier id="TRAIT_MOD_TANG_CAPITAL_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">100</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TANG_CAPITAL_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">300</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TANG_CAPITAL_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">100</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TANG_CAPITAL_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">100</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TANG_CAPITAL_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">50</Argument>
+		<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+	</Modifier>
+
+	<!-- 市政树 -->
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_TANG_CHINA" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_TANG_CHINA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_TANG</Argument>
+	</Modifier>
+
+	<!-- ==================================================	-->
+	<!--				Wonder Bonuses						-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_CIV_WONDER_PRODUCTION_TANG_CHINA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_FAVORED_WONDER_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_TANG_CHINA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Percent">30</Argument>
+		<String context="Preview">LOC_MOD_CIV_WONDER_PRODUCTION_TANG_CHINA_DESCRIPTION</String>
+	</Modifier>
+
+
+	
+</GameEffects>

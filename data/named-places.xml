@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<NamedRiverCivilizations>
+        <Row NamedRiverType="HAI_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="PEARL_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="TARIM_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="WEI_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="YANGTZE_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="YELLOW_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+
+        <Row NamedRiverType="TANG_JING_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+		<Row NamedRiverType="TANG_WEI_RIVER" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+
+	</NamedRiverCivilizations>
+	<NamedRivers>
+        <!-- 泾河 -->
+		<Row NamedRiverType="TANG_JING_RIVER" Name="LOC_RIVER_TANG_JING_NAME"/>
+        <!-- 渭河 -->
+		<Row NamedRiverType="TANG_WEI_RIVER" Name="LOC_RIVER_TANG_WEI_NAME"/>
+
+	</NamedRivers>
+
+    <NamedVolcanoCivilizations>
+        <!-- 长白山 -->
+		<Row NamedVolcanoType="VOLCANO_MOUNT_PAEKTU" CivilizationType="CIVILIZATION_TANG_CHINA"/>
+
+	</NamedVolcanoCivilizations>
+</Database>

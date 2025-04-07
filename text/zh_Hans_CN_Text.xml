@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+  <LocalizedText>
+
+    <!-- civilization -->
+    <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_NAME" Language="zh_Hans_CN">
+      <Text>唐朝</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_ADJECTIVE" Language="zh_Hans_CN">
+      <Text>唐朝</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_FULLNAME" Language="zh_Hans_CN">
+      <Text>唐朝</Text>
+    </Replace>
+
+     <Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_TANG_CHINA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>唐朝从隋末天下大乱中崛起，唐太宗李世民励精图治，开创"贞观之治"，完善三省六部制，推行均田租庸调制，平定突厥边患，为盛世奠定根基。至武周时期延续贞观遗风，玄宗前期"开元盛世"达至巅峰，疆域东抵朝鲜、西达中亚，设安西都护府统辖西域，长安城成为万国来朝的国际都会，丝绸之路贸易空前繁荣，坊市之间"稻米流脂粟米白"，诗歌、佛教与胡风乐舞交融绽放，日本遣唐使络绎不绝，展现开放包容的大唐气象。 </Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_TANG_CHINA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>然而安史之乱爆发后，中央权威遭受重创，藩镇割据、宦官专权与牛李党争交织恶化，黄巢起义更彻底摧毁经济根基，唐朝最终被分裂的五代十国所取代。</Text>
+    </Replace>
+
+    <!-- loading info -->
+    <Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_TANG_CHINA" Language="zh_Hans_CN">
+      <Text>唐朝（618年－907年），是中国历史上继隋朝后的大一统中原王朝，共历二十一帝，享国二百八十九年。</Text>
+    </Replace>
+	  <Replace Tag="LOC_LOADING_INTRO_TANG_CHINA" Language="zh_Hans_CN">
+      <Text>唐朝国力强盛，经济繁荣，对外交往活跃，制度上也有重要建树，是当时世界上最强盛的国家之一。唐以后海外多称中国人为“唐人。</Text>
+    </Replace>
+
+    <!-- civilization ability -->
+
+    <Replace Tag="LOC_TRAIT_TANG_CHINA_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[LIST][LI][B]宫殿[/B][B]+4[icon:YIELD_DIPLOMACY]影响力[/B]。[B]首都[/B]每拥有一个[B]农场[/B]，陆地单位便[B]+1战斗力[/B]。[LI]建造[B]紫禁城[/B]时[B]+30%[icon:YIELD_PRODUCTION]生产力效用[/B]。[/LIST]</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_TANG_CHINA_ABILITY_NAME" Language="zh_Hans_CN">
+      <Text>万国朝未央</Text>
+    </Replace>
+
+
+    <Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_TANG_CHINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>作为唐朝的关联奇观+30%[icon:YIELD_PRODUCTION]生产力。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_TANG_CHINA_COMBAT_STRENGTH_PREVIEW" Language="zh_Hans_CN">
+      <Text>+{1_Amount}来自首都的农场（{LOC_CIVILIZATION_TANG_CHINA_NAME}）</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_TANG_CHINA_PALACE_DIPLOMACY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>宫殿+4[icon:YIELD_DIPLOMACY]影响力，来自（{LOC_CIVILIZATION_TANG_CHINA_NAME}）</Text>
+    </Replace>
+
+
+    <!-- named places -->
+    <Replace Tag="LOC_RIVER_TANG_JING_NAME" Language="zh_Hans_CN">
+      <Text>泾水</Text>
+    </Replace>  
+    <Replace Tag="LOC_RIVER_TANG_WEI_NAME" Language="zh_Hans_CN">
+      <Text>渭水</Text>
+    </Replace> 
+
+    <!-- city names -->
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA1" Language="zh_Hans_CN">
+      <Text>长安</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA10" Language="zh_Hans_CN">
+      <Text>洛阳</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA11" Language="zh_Hans_CN">
+      <Text>扬州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA12" Language="zh_Hans_CN">
+      <Text>成都</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA13" Language="zh_Hans_CN">
+      <Text>太原</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA14" Language="zh_Hans_CN">
+      <Text>陈留</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA15" Language="zh_Hans_CN">
+      <Text>广州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA16" Language="zh_Hans_CN">
+      <Text>苏州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA17" Language="zh_Hans_CN">
+      <Text>余杭</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA18" Language="zh_Hans_CN">
+      <Text>渤海</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA19" Language="zh_Hans_CN">
+      <Text>临海</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA2" Language="zh_Hans_CN">
+      <Text>凉州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA20" Language="zh_Hans_CN">
+      <Text>福州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA21" Language="zh_Hans_CN">
+      <Text>泉州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA22" Language="zh_Hans_CN">
+      <Text>安东都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA23" Language="zh_Hans_CN">
+      <Text>安北都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA24" Language="zh_Hans_CN">
+      <Text>单于都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA25" Language="zh_Hans_CN">
+      <Text>安西都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA26" Language="zh_Hans_CN">
+      <Text>北庭都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA27" Language="zh_Hans_CN">
+      <Text>安南都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA28" Language="zh_Hans_CN">
+      <Text>桂州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA29" Language="zh_Hans_CN">
+      <Text>幽州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA3" Language="zh_Hans_CN">
+      <Text>睢阳</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA30" Language="zh_Hans_CN">
+      <Text>明州</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA4" Language="zh_Hans_CN">
+      <Text>宣城</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA5" Language="zh_Hans_CN">
+      <Text>清河</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA6" Language="zh_Hans_CN">
+      <Text>颍川</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA7" Language="zh_Hans_CN">
+      <Text>江陵</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA8" Language="zh_Hans_CN">
+      <Text>彭城</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_TANG_CHINA9" Language="zh_Hans_CN">
+      <Text>东平</Text>
+    </Replace>
+
+    <!-- citizen names -->
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_1" Language="zh_Hans_CN">
+      <Text>武则天</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_10" Language="zh_Hans_CN">
+      <Text>文德皇后</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_2" Language="zh_Hans_CN">
+      <Text>上官婉儿</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_3" Language="zh_Hans_CN">
+      <Text>太平公主</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_4" Language="zh_Hans_CN">
+      <Text>鱼玄机</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_5" Language="zh_Hans_CN">
+      <Text>李冶</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_6" Language="zh_Hans_CN">
+      <Text>薛涛</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_7" Language="zh_Hans_CN">
+      <Text>文成公主</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_8" Language="zh_Hans_CN">
+      <Text>杨玉环</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_9" Language="zh_Hans_CN">
+      <Text>平阳公主</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_1" Language="zh_Hans_CN">
+      <Text>李世民</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_10" Language="zh_Hans_CN">
+      <Text>李隆基</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_2" Language="zh_Hans_CN">
+      <Text>李白</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_3" Language="zh_Hans_CN">
+      <Text>杜甫</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_4" Language="zh_Hans_CN">
+      <Text>王维</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_5" Language="zh_Hans_CN">
+      <Text>李商隐</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_6" Language="zh_Hans_CN">
+      <Text>孟浩然</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_7" Language="zh_Hans_CN">
+      <Text>刘禹锡</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_8" Language="zh_Hans_CN">
+      <Text>白居易</Text>
+    </Replace>
+    <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_9" Language="zh_Hans_CN">
+      <Text>岑参</Text>
+    </Replace>
+
+    <!-- Unlocks -->
+    <!-- 1-2 -->
+    
+    <Replace Tag="LOC_UNLOCK_PLAY_AS_HAN_TANG_CHINA_TOOLTIP" Language="zh_Hans_CN">
+      <Text>[B]汉朝[/B]是[B]唐朝[/B]诞生前的当地文明。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TANG_CHINA_TOOLTIP" Language="zh_Hans_CN">
+      <Text>[B]唐朝[/B]受到了[B]孔子[/B]思想的影响。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_UNLOCK_CITY_STATES_TANG_CHINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>成为2个[B]城邦[/B]的[B]宗主国[/B]。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNLOCK_CITY_STATES_TANG_CHINA_TOOLTIP" Language="zh_Hans_CN">
+      <Text>[B]唐朝[/B]开放包容，万国来朝。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_UNLOCK_SILK_TANG_CHINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>改良3处[B]丝绸[/B]。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNLOCK_SILK_TANG_CHINA_TOOLTIP" Language="zh_Hans_CN">
+        <Text>[B]丝绸[/B]对[B]唐朝[/B]而言是一种重要商品。</Text>
+    </Replace>
+
+    <!-- 2-3 -->
+
+    <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>扮演[B]唐朝[/B]。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_QING_TOOLTIP" Language="zh_Hans_CN">
+      <Text>[B]唐朝[/B]是[B]清朝[/B]诞生前的当地文明。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_MEIJI_TOOLTIP" Language="zh_Hans_CN">
+      <Text>[B]唐朝[/B]影响了[B]明治日本[/B]的发展。</Text>
+    </Replace>
+
+    <!-- improvement -->
+    <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_NAME" Language="zh_Hans_CN">
+      <Text>大都护府</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+5[icon:YIELD_CULTURE]文化值。从城区获得+1[icon:YIELD_DIPLOMACY]影响力相邻加成。如果建造在非您创建的城市中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。无法放置在另一个大都护府旁。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_TOOLTIP" Language="zh_Hans_CN">
+      <Text>如果建造在非您创建的城市中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。无法放置在另一个大都护府旁。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>都护府是汉唐等中原王朝为督察管制边境少数民族而设置的军政机构。汉代在西域初设西域都护府，东汉后期及曹魏、西晋设有西域长史府，唐代曾设安北都护府、安西都护府、安东都护府、安南都护府、单于都护府、北庭都护府等六大都护府，都护府长官称为都护。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>安西都护府是唐太宗于贞观十四年（640年）在西域设立的（原名西州都护府），同年九月在交河城设安西都护府，到唐宪宗元和三年（808年）止，共存在约170年。安西都护府，安西大都护府乃是唐朝管理碛西的一个军政机构的不同时期的名称，统辖安西四镇（碎叶、龟兹、于阗、疏勒，后碎叶为焉耆所取代），最大管辖范围曾一度完全包括天山南北，并至葱岭以西至达波斯。在武周时期北庭都护府分立之后，安西都护府分管天山以南的西域地区。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>龙朔二年（662年）之后，吐蕃和唐朝反复争夺安西四镇，此处几度易手。武周长寿元年（692年）到安史之乱前，安西情形较为稳定。公元755年安史之乱爆发后，大量安西都护府驻军被调往内地参与平叛，导致安西都护府空虚，吐蕃趁机进兵安西。唐德宗贞元六年（790年），吐蕃攻占北庭和安西四镇之一的于阗。唐朝与安西失去联络，不知安西存亡。安西最后陷落的时间，史料并无确切记载。</Text>
+    </Replace>
+
+    <!-- unit -->
+
+     <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" Language="zh_Hans_CN">
+      <Text>玄甲军</Text>
+    </Replace>
+     <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>第2阶唐朝特色骑兵单位。防御时+3战斗力，夹击时+50%加成。无视控制区。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_3_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>第3阶唐朝特色骑兵单位。防御时+3战斗力，夹击时+50%加成。无视控制区。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_BASE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>唐朝特色骑兵单位。防御时+3战斗力，夹击时+50%加成。无视控制区。</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>第1阶唐朝特色骑兵单位。防御时+3战斗力，夹击时+50%加成。无视控制区。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>玄甲军是唐朝前期由李世民组建的一支精锐骑兵，在李渊起兵时就具有一定基础。到了击败薛举，吞并陇右骑兵以后，玄甲军也大大加强。李世民曾用千余玄甲骑兵大破王世充，斩俘六千余人。在决定天下归属的虎牢关之战中，窦建德率领精锐主力十余万人前来支援王世充，李世民仅用3500名玄甲精兵为前锋增援虎牢关，结果大破窦建德十余万众，窦建德战败被俘。随后，洛阳的王世充也被消灭。天下的局势完全转向了对唐军有利的一面。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>《资治通鉴》记载：“秦王世民选精锐千馀骑，皆皂衣玄甲，分为左右队，使秦叔宝、程知节、尉迟敬德、翟长孙分将之。每战，世民亲被玄甲帅之为前锋，乘机进击，所向无不摧破，敌人畏之。”</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>李世民登基后，部分玄甲军交由李靖率领，在唐对突厥的灭国性战争中起到中流砥柱的作用。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+      <Text>关于玄甲军所着甲胄是轻甲还是重甲，马是否着甲，历来争议颇多。较为合理的解释是，人着甲而马不着甲。玄甲军也许有一部分重装骑兵，但是即使有，也是与轻骑兵相配合的。当唐军兵锋推进到突厥和西域时，骑兵的机动性尤为重要，此时唐军的骑兵应多为轻骑兵。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_ABILITY_TANG_BAC_NAME" Language="zh_Hans_CN">
+      <Text>{LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME}</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TANG_BAC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>防御时+3战斗力，夹击时+50%加成。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_ABILITY_TANG_BAC_COMBAT_PREVIEW" Language="zh_Hans_CN">
+      <Text>+{1_Amount}%夹击，来自{LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME}</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_TANG_BAC_DEFEND_PREVIEW" Language="zh_Hans_CN">
+      <Text>防御时+{Amount}战斗力，来自{LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME}</Text>
+    </Replace> 
+
+    
+    <!-- Jiedushi -->
+    <Replace Tag="LOC_UNIT_JIE_DU_SHI_NAME" Language="zh_Hans_CN">
+      <Text>节度使</Text>
+    </Replace>
+    <Replace Tag="LOC_UNIT_JIE_DU_SHI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>唐朝特色军队指挥官。移动速度更快，但是维护费用为4金币。驻扎在区块中时，此城市生产陆地单位+50%生产力效用，此城市中的大都护府+2金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>节度使，为中国古代官名。唐朝始设，原仅掌地方军权，后通过兼任采访使、营田使、度支使掌控行政权和财政权，成为地方最高军政长官。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>节度使的出现，与唐中期的边防压力和军事战略有关。唐朝所防御的对手是游牧或半游牧民族的强大骑兵部队，且唐朝边疆与首都距离遥远，为了应对这些敌人，就必须有常备的边防部队。当时实行府兵制，本应该屯戍轮换，以几年为期。持久的战争却导致戍期延长，导致人民避役，兵士逃亡，越来越难以为继。后来，府兵制逐渐为募兵制所取代。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>唐朝的行军总管逐渐演变成逐渐演变成常驻专任的、统率军区的军事长官。数量庞大的常备军消耗甚多，中央财政无力承担，必须就地屯田。起初，屯田产出的粮食受中央政府支配，但是这种制度使常备军将领不能及时解决自己防区内军队的后勤供应，影响了他们调动、指挥军队的权力，削弱了唐军的战斗力。唐朝的中央政府不得不把防区的财政权力、甚至盐池的管理权转给各防区的常备军将领。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+      <Text>唐睿宗景云二年（711年），贺拔延嗣为凉州都督充河西节度使，节度使开始成为正式的官职。募兵制下，节度使掌握军人的上升渠道，得以培养起只忠于自己（而非中央政府）的亲兵部队，拥有了军权。后来，起监督作用的采访使也可以由节度使兼领，掌握军权、财政权甚至行政权的节度使的权利就越来越大了。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+      <Text>节度使的权利过大，削弱了唐朝中央政府的权威。全国精兵集中于北方，中原腹地空虚，导致安史之乱发生后唐朝中央政府难以及时平定。安史之乱后，唐朝境内节度使和藩镇林立。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+      <Text>五代时期，节度使的权势达到了极点，皇帝的拥立与罢黜都取决于节度使，后梁、后唐、后晋、后汉、后周的开国君主均为节度使。到宋太祖赵匡胤、宋太宗赵炅采取各种政策，削弱节度使的军、政、财权，以加强中央集权。节度使遂逐渐成为一种荣誉性的虚衔。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_ABILITY_JIE_DU_SHI_NAME" Language="zh_Hans_CN">
+      <Text>{LOC_UNIT_JIE_DU_SHI_NAME}</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_JIE_DU_SHI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>驻扎在区块中时，此城市生产陆地单位+50%生产力效用，此城市中的大都护府+2金币。</Text>
+    </Replace>
+
+    <!-- civics -->
+    <Replace Tag="LOC_TREE_CIVICS_EX_TANG_NAME" Language="zh_Hans_CN">
+      <Text>唐朝市政</Text>
+    </Replace>
+
+    <!-- The Imperial Examination System -->
+
+    <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_NAME" Language="zh_Hans_CN">
+      <Text>科举制</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_QUOTE" Language="zh_Hans_CN">
+      <Text>“天下英雄入吾彀中矣！”</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_QUOTE_AUTHOR" Language="zh_Hans_CN">
+      <Text>李世民</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>科举制度，是中国古代通过考试选拔官吏的制度。通常认为，科举制萌芽于汉朝，隋朝正式实行，唐朝继承并完善。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>汉朝时，提拔民间人才采用的是察举制与征辟制。汉顺帝阳嘉元年（132）采用尚书令左雄建议，改革察举制，规定察举孝廉要先经考试，创立分科考试制度，儒生考察经学，文吏考察章奏。魏文帝时，陈群创立九品中正制，由特定官员，按出身、品德等考核民间人才，分为九品录用。西晋、六朝时沿用此制。但是，魏晋时代豪族实力强大，事实上造成了“上品无寒门，下品无势族”的局面。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>隋朝建立后，废除九品中正制，开始采用分科而举人的方式选拔官员。隋文帝、隋炀帝都曾下诏，让地方举荐人才，并分科考试。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+      <Text>唐高祖武德四年（621年）诏令“诸州学士及早有明经及秀才、俊士、进士，明于理体，为乡里所称者，委本县考试，州长重复，取其合格，每年十月随物入贡”，提出了“每年十月”赴朝廷应试的定期，明确了州、县地方预试，即相当于后世“乡试”的办法，而且不必像隋代那样必须官府举荐。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+      <Text>武德五年（622年）唐朝的诏书明确了士人可以“投碟自应”，下层寒士得不到举荐者“亦听自举”，“洁己登朝，无嫌自进” 。自此正式确定了士人“自举”、“自进”的制度。唐高祖武德五年（622年）的诏令标志着以自应考试为特点的科举制度的诞生。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+      <Text>武则天创立了科举考试中的“殿试”环节，以及“武举”。</Text>
+    </Replace>
+
+
+    <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_HAPPINESS_MAINTENANCE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>维护专家时+30%[icon:YIELD_HAPPINESS]幸福值效用。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_CAP_INCREASE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>首都+2专家上限。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_FARM_HAPPINESS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>农场+2[icon:YIELD_HAPPINESS]幸福值。</Text>
+    </Replace>
+
+
+    <!-- pacify the west -->
+    <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_NAME" Language="zh_Hans_CN">
+      <Text>安西万里</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_QUOTE" Language="zh_Hans_CN">
+      <Text>“渭城朝雨浥轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人。”</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_QUOTE_AUTHOR" Language="zh_Hans_CN">
+      <Text>王维</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_PACIFY_THE_WEST_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>唐朝对西域的经略始于贞观年间（640年）平定高昌设立安西都护府，通过军事征服与羁縻政策逐步控制塔里木盆地，并在高宗时期（657年）灭亡西突厥后达到极盛，疆域西抵咸海，设立安西四镇（龟兹、疏勒、于阗、碎叶），形成以军屯和丝绸之路贸易为支柱的统治体系。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_PACIFY_THE_WEST_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>玄宗开元、天宝年间（8世纪前期），安西都护府与北庭都护府分治天山南北，依托蕃将集团维持霸权，直至怛罗斯之战（751年）受挫于阿拉伯帝国。安史之乱（755年）爆发后，唐朝抽调西域精兵平叛，吐蕃趁机切断河西走廊，西域唐军孤守数十年，最终于约8世纪末、9世纪初终结，标志着中原王朝经略中亚的时代性退潮。这一兴衰过程，和唐朝本身的兴衰相一致，令人无限感叹。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MOD_PACIFY_THE_WEST_DIPLO_BONUS_CS_LEVY_UNIT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>从城邦征集单位时+50%[icon:YIELD_DIPLOMACY]影响力效用。</Text>
+    </Replace>
+
+    <!-- Feiyandougong -->
+    <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_NAME" Language="zh_Hans_CN">
+      <Text>飞檐斗拱</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_QUOTE" Language="zh_Hans_CN">
+      <Text>“层峦耸翠，上出重霄；飞阁流丹，下临无地。”</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_QUOTE_AUTHOR" Language="zh_Hans_CN">
+      <Text>王勃</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>唐代的木构建筑水平极高。垂拱三年（687年），武则天在洛阳修建明堂，根据史书记载，其长、宽、高都达到百米左右。后续修建的五层结构的天堂更是可以在第三层俯视明堂。明堂和天堂是世界历史上体量最大的木质建筑。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>作为唐代建筑最鲜明的特征，飞檐斗拱实现了力学与美学的完美统一——斗拱从简单的承重构件发展为兼具结构性与装饰性的复合系统，形成了"七铺作双杪双下昂"等标准化形制，既能支撑出檐达柱高一半以上的深远屋檐，又创造出"如翚斯飞"的灵动曲线。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>现存的五台山佛光寺东大殿（857年）堪称唐代木构建筑的典范，其七铺作斗拱与3.96米的出檐完美展现了唐代匠人的智慧，而南禅寺大殿（782年）则体现了小型建筑的精准比例。在都城长安，大明宫含元殿的恢宏形制虽仅存遗址，但通过复原研究可见其斗拱规格更显皇家气派。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+      <Text>这些技术成就不仅影响了辽代独乐寺观音阁等后世建筑，更随着鉴真东渡传入日本，造就了奈良唐招提寺等海外著名建筑，最终使飞檐斗拱成为东亚建筑的共同标志。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_HAPPINESS_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>亭台+2[icon:YIELD_HAPPINESS]幸福值。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_RELIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建成亭台后获得1件遗物。</Text>
+    </Replace>
+    
+
+    <Replace Tag="LOC_CIVIC_FAN_ZHEN_NAME" Language="zh_Hans_CN">
+      <Text>藩镇</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FAN_ZHEN_QUOTE" Language="zh_Hans_CN">
+      <Text>“沧海未全归禹贡，蓟门何处尽尧封。”</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVIC_FAN_ZHEN_QUOTE_AUTHOR" Language="zh_Hans_CN">
+      <Text>杜甫</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>唐朝中后期藩镇割据局面的形成，根源在于安史之乱后中央权威的衰落与军事制度的结构性失衡。天宝年间，玄宗为边防需要赋予节度使过大的军、政、财权，而安史之乱（755-763年）期间，为快速平叛又不得不默许降将（如李宝臣、田承嗣）继续掌控河北诸镇，埋下割据隐患。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>安史之乱后形成的河朔三镇（魏博、成德、幽州）公然世袭节度使之职，拒纳赋税，拥兵自重，形成"虽称藩臣，实非王土"的局面。与此同时，东南财赋型藩镇（如淮南、浙西）和西北边防型藩镇（如凤翔、邠宁）则因需维系漕运与抵御吐蕃，仍与中央保持合作。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>德宗朝（780-805年）的"四镇之乱"与宪宗（805-820年）的元和中兴曾短暂压制藩镇气焰，但依赖神策军与金钱赎买的策略未能根除割据基础。至黄巢起义（875-884年）后，宣武节度使朱温等新兴军阀彻底架空唐廷，最终演变为五代十国的分裂格局。这种"既依存又对抗"的关系中，藩镇既是唐廷维持统治的工具，也是其慢性衰亡的推手，折射出古代中央集权与地方分权的深刻矛盾。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_MOD_FAN_ZHEN_SETTLEMENT_CAP_INCREASE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2定居点上限。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_FAN_ZHEN_ARMY_COMMANDER_PROMOTION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>节度使获得1次免费晋升。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_YIELD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>拥有专业化的城镇+100%金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每座拥有专业化的城镇都使首都-3金币。</Text>
+    </Replace>
+
+    <!-- traditions -->
+
+    <!-- Military Recruitment Examinations -->
+    <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_NAME" Language="zh_Hans_CN">
+      <Text>武举</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_1" Language="zh_Hans_CN">
+      <Text>建造指挥官时+50%[icon:YIELD_PRODUCTION]生产力效用。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_2" Language="zh_Hans_CN">
+      <Text>+50%指挥官经验。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>{LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_1}{LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_2}</Text>
+    </Replace>
+
+    <!-- Jimi System -->
+    <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_NAME" Language="zh_Hans_CN">
+      <Text>羁縻制</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_1" Language="zh_Hans_CN">
+      <Text>发起并展开“结交独立势力”行动时+30%[icon:YIELD_DIPLOMACY]影响力效用。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_2" Language="zh_Hans_CN">
+      <Text>每有1个下属城邦，大都护府便+2[icon:YIELD_GOLD]金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_3" Language="zh_Hans_CN">
+      <Text>每有1个下属城邦，大都护府便+1[icon:YIELD_DIPLOMACY]影响力。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_1}{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_2}{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_3}</Text>
+    </Replace>
+
+    <!-- Tang Poetry -->
+    <Replace Tag="LOC_TRADITION_TANG_POETRY_NAME" Language="zh_Hans_CN">
+      <Text>唐诗</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_TANG_POETRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>巨作提供+3[icon:YIELD_CULTURE]文化值。</Text>
+    </Replace>
+
+    <!-- Mercenary Recruit System -->
+    <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_NAME" Language="zh_Hans_CN">
+      <Text>募兵制</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1" Language="zh_Hans_CN">
+      <Text>购买军事单位时+20%[icon:YIELD_GOLD]金币效用。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2" Language="zh_Hans_CN">
+      <Text>但是首都-10%[icon:YIELD_GOLD]金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1}{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2}</Text>
+    </Replace>
+
+    
+  </LocalizedText>
+</Database>

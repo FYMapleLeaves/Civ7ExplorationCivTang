@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_TANG_CHINA_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" 
+		Name="LOC_CIVILIZATION_TANG_CHINA_NAME" 
+		FullName="LOC_CIVILIZATION_TANG_CHINA_FULLNAME" 
+		Description="LOC_CIVILIZATION_TANG_CHINA_DESCRIPTION" 
+		Adjective="LOC_CIVILIZATION_TANG_CHINA_ADJECTIVE" 
+		StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
+		UniqueCultureProgressionTree="TREE_CIVICS_EX_TANG" 
+		CapitalName="LOC_CITY_NAME_TANG_CHINA1" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" FavoredWonderType="WONDER_FORBIDDEN_CITY" FavoredWonderName="LOC_WONDER_FORBIDDEN_CITY_NAME"/>
+	</CivilizationFavoredWonders>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" Name="LOC_TRAIT_TANG_CHINA_ABILITY_NAME" Description="LOC_TRAIT_TANG_CHINA_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<!-- 市政树 -->
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_TANG_CHINA"/>
+
+		<!-- 关联奇观 -->
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_TANG_CHINA"/>
+
+		<!-- 战斗力 -->
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="MOD_TANG_CHINA_COMBAT_STRENGTH_CAPITAL_ATTACH"/>
+		<!-- 影响力 -->
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="MOD_TANG_CHINA_PALACE_DIPLOMACY"/>
+
+		<!-- 测试 -->
+		<!-- <Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="TRAIT_MOD_TANG_CAPITAL_SCIENCE"/>
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="TRAIT_MOD_TANG_CAPITAL_CULTURE"/>
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="TRAIT_MOD_TANG_CAPITAL_PRODUCTION"/>
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="TRAIT_MOD_TANG_CAPITAL_GOLD"/>
+		<Row TraitType="TRAIT_TANG_CHINA_ABILITY" ModifierId="TRAIT_MOD_TANG_CAPITAL_HAPPINESS"/> -->
+
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" TraitType="TRAIT_EXPLORATION_CIV"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" TraitType="TRAIT_TANG_CHINA"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" TraitType="TRAIT_TANG_CHINA_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_TANG_CHINA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_TANG_CHINA" RequirementId="REQ_PLAYER_HAS_TRAIT_TANG_CHINA"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_TANG_CHINA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_TANG_CHINA" Name="TraitType" Value="TRAIT_TANG_CHINA"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_TANG_CHINA" Priority="3"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--TANG_CHINA-->
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA1"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA2"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA3"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA4"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA5"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA6"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA7"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA8"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA9"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA10"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA11"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA12"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA13"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA14"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA15"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA16"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA17"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA18"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA19"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA20"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA21"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA22"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA23"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA24"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA25"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA26"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA27"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA28"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA29"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" CityName="LOC_CITY_NAME_TANG_CHINA30"/>
+	</CityNames>
+    <StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" BiomeType="BIOME_GRASSLAND" Score="5"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" BiomeType="BIOME_PLAINS" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" ResourceType="RESOURCE_SILK" Score="5"/>
+
+	</StartBiasResources>
+	<StartBiasTerrains>
+        
+	</StartBiasTerrains>
+	<VisArt_CivilizationBuildingCultures>
+
+        <Row CivilizationType="CIVILIZATION_TANG_CHINA" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" BuildingCulture="MOD_STONE"/>
+
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" UnitCulture="Asian"/>
+	</VisArt_CivilizationUnitCultures>
+
+</Database>

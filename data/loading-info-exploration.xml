@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<LoadingInfo_Civilizations>
+
+        <!-- Audio可以为空 -->
+        <Row CivilizationType="CIVILIZATION_TANG_CHINA" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_TANG_CHINA" Audio="" Subtitle="LOC_LOADING_INTRO_TANG_CHINA" BackgroundImageHigh="fs://game/tang-china/textures/lsbg_tang_1080.png" BackgroundImageLow="fs://game/tang-china/textures/lsbg_tang_720.png" ForegroundImage="fs://game/civ_line_ming.png" />
+
+    </LoadingInfo_Civilizations>
+</Database>

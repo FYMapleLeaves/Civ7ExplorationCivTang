@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MEIJI" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_QING" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MEIJI"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_QING"/>
+
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MEIJI" Name="LOC_CIVILIZATION_MEIJI_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_MEIJI" CivUnlock="true"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_QING" Name="LOC_CIVILIZATION_QING_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="CIVILIZATION_QING" CivUnlock="true"/>
+
+	</UnlockRewards>
+	<RequirementSets>
+
+		<Row RequirementSetId="REQSET_CIV_IS_TANG_CHINA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<Requirements>
+
+		<Row RequirementId="REQ_CIV_IS_TANG_CHINA" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="REQ_CIV_IS_TANG_CHINA" Name="CivilizationType" Value="CIVILIZATION_TANG_CHINA"/>
+
+	</RequirementArguments>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="REQSET_CIV_IS_TANG_CHINA" RequirementId="REQ_CIV_IS_TANG_CHINA"/>
+
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MEIJI" RequirementSetId="REQSET_CIV_IS_TANG_CHINA" Description="LOC_UNLOCK_PLAY_AS_TANG_CHINA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_TANG_CHINA_MEIJI_TOOLTIP"/>
+
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_QING" RequirementSetId="REQSET_CIV_IS_TANG_CHINA" Description="LOC_UNLOCK_PLAY_AS_TANG_CHINA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_TANG_CHINA_QING_TOOLTIP"/>
+
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MEIJI" ConfigurationValue="CIVILIZATION_MEIJI"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_QING" ConfigurationValue="CIVILIZATION_QING"/>
+
+	</UnlockConfigurationValues>
+</Database>

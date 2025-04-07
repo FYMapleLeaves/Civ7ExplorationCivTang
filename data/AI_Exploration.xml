@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+  <AiListTypes>
+
+    <!-- Tang -->
+    <Row ListType="Tang Unit Biases"/>
+    <Row ListType="Tang Government Bias"/>
+    <Row ListType="Tang PseudoYield Biases"/>
+    <Row ListType="Tang Constructibles Biases"/>
+    <Row ListType="Tang Budget Biases"/>
+    <Row ListType="Tang Tag Biases"/>
+    <Row ListType="Tang Settle Plot Evaluations"/>
+
+  </AiListTypes>
+  <AiLists>
+    
+    <!-- Tang -->
+    <Row ListType="Tang Unit Biases" LeaderType="TRAIT_TANG_CHINA" System="UnitBiases"/>
+    <Row ListType="Tang Government Bias" LeaderType="TRAIT_TANG_CHINA" System="GovernmentBiases"/>
+    <Row ListType="Tang PseudoYield Biases" LeaderType="TRAIT_TANG_CHINA" System="PseudoYieldBiases"/>
+    <Row ListType="Tang Constructibles Biases" LeaderType="TRAIT_TANG_CHINA" System="ConstructibleBiases" />
+    <Row ListType="Tang Budget Biases" LeaderType="TRAIT_TANG_CHINA" System="AiBudgetBiases"/>
+    <Row ListType="Tang Tag Biases" LeaderType="TRAIT_TANG_CHINA" System="TagBiases"/>
+    <Row ListType="Tang Settle Plot Evaluations" LeaderType="TRAIT_TANG_CHINA" System="SettlementPlotEvaluations"/>
+
+  </AiLists>
+  <AiFavoredItems>
+
+    <!-- Tang -->
+
+    <!-- 单位偏好 -->
+    <Row ListType="Tang Unit Biases" Item="UNIT_TANG_BLACK_ARMOURED_CAVALRY" Value="50"/>
+    <Row ListType="Tang Unit Biases" Item="UNIT_TANG_BLACK_ARMOURED_CAVALRY_2" Value="50"/>
+    <Row ListType="Tang Unit Biases" Item="UNIT_TANG_BLACK_ARMOURED_CAVALRY_3" Value="50"/>
+    <Row ListType="Tang Unit Biases" Item="UNIT_JIE_DU_SHI" Value="50"/>
+
+    <!-- 柯克船 -->
+    <Row ListType="Tang Unit Biases" Item="UNIT_COG" Value="25"/>
+    <!-- 克拉克帆船 -->
+    <Row ListType="Tang Unit Biases" Item="UNIT_CARRACK" Value="25"/>
+    <!-- 盖伦帆船 -->
+    <Row ListType="Tang Unit Biases" Item="UNIT_GALLEON" Value="25"/>
+
+    <!-- 封建君主制 -->
+    <Row ListType="Tang Government Bias" Item="GOVERNMENT_FEUDAL_MONARCHY" Value="25"/>
+
+    <!-- 虚拟产出偏好 -->
+    <Row ListType="Tang PseudoYield Biases" Item="PSEUDOYIELD_RESOURCE_IMPORT" Value="25"/>
+    <Row ListType="Tang PseudoYield Biases" Item="PSEUDOYIELD_UNLOCK_CIV_UNIQUE_TRADITION" Value="1000000"/>
+    <Row ListType="Tang PseudoYield Biases" Item="PSEUDOYIELD_SLOT_CIV_UNIQUE_TRADITION" Value="100000"/>
+
+    <Row ListType="Tang Constructibles Biases" Item="WONDER_FORBIDDEN_CITY" Value="50" />
+    <Row ListType="Tang Constructibles Biases" Item="IMPROVEMENT_TANG_FRONTIER_COMMAND" Value="200" />
+
+    <!-- 军队预算 -->
+    <Row ListType="Tang Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="25"/>
+
+    <!-- 经济 -->
+    <Row ListType="Tang Tag Biases" Item="GOLD" Value="50"/>
+
+    <!-- 遥远土地定居 -->
+    <Row ListType="Tang Settle Plot Evaluations" Item="Foreign Hemisphere" Favored="false" Value="200" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_FOREIGN_HEMISPHERE"/>
+
+
+  </AiFavoredItems>
+  
+</Database>
