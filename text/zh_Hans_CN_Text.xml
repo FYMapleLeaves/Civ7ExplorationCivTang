@@ -26,7 +26,7 @@
       <Text>唐朝（618年－907年），是中国历史上继隋朝后的大一统中原王朝，共历二十一帝，享国二百八十九年。</Text>
     </Replace>
 	  <Replace Tag="LOC_LOADING_INTRO_TANG_CHINA" Language="zh_Hans_CN">
-      <Text>唐朝国力强盛，经济繁荣，对外交往活跃，制度上也有重要建树，是当时世界上最强盛的国家之一。唐以后海外多称中国人为“唐人。</Text>
+      <Text>唐朝国力强盛，经济繁荣，对外交往活跃，制度上也有重要建树，是当时世界上最强盛的国家之一。唐以后海外多称中国人为“唐人”。</Text>
     </Replace>
 
     <!-- civilization ability -->
@@ -47,7 +47,7 @@
       <Text>+{1_Amount}来自首都的农场（{LOC_CIVILIZATION_TANG_CHINA_NAME}）</Text>
     </Replace>
     <Replace Tag="LOC_MOD_TANG_CHINA_PALACE_DIPLOMACY_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>宫殿+4[icon:YIELD_DIPLOMACY]影响力，来自（{LOC_CIVILIZATION_TANG_CHINA_NAME}）</Text>
+      <Text>宫殿+4[icon:YIELD_DIPLOMACY]影响力，来自{LOC_CIVILIZATION_TANG_CHINA_NAME}</Text>
     </Replace>
 
 
@@ -145,10 +145,10 @@
       <Text>江陵</Text>
     </Replace>
     <Replace Tag="LOC_CITY_NAME_TANG_CHINA8" Language="zh_Hans_CN">
-      <Text>彭城</Text>
+      <Text>沙州</Text>
     </Replace>
     <Replace Tag="LOC_CITY_NAME_TANG_CHINA9" Language="zh_Hans_CN">
-      <Text>东平</Text>
+      <Text>瓜州</Text>
     </Replace>
 
     <!-- citizen names -->
@@ -255,10 +255,10 @@
       <Text>大都护府</Text>
     </Replace>
     <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>+5[icon:YIELD_CULTURE]文化值。从城区获得+1[icon:YIELD_DIPLOMACY]影响力相邻加成。如果建造在非您创建的城市中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。无法放置在另一个大都护府旁。</Text>
+      <Text>+5[icon:YIELD_CULTURE]文化值。从城区获得+1[icon:YIELD_DIPLOMACY]影响力相邻加成。如果建造在非您创建的定居点中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。每个定居点限一个。</Text>
     </Replace>
     <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_TOOLTIP" Language="zh_Hans_CN">
-      <Text>如果建造在非您创建的城市中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。无法放置在另一个大都护府旁。</Text>
+      <Text>如果建造在非您创建的定居点中，则与其他文明的贸易路线上限+1，+10陆地贸易路线范围。唐朝特色改良设施。无时代限制。视为防御工事，防御时+6战斗力。不会移除地块上的仓库加成。每个定居点限一个。</Text>
     </Replace>
 
     <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
@@ -322,7 +322,7 @@
       <Text>节度使</Text>
     </Replace>
     <Replace Tag="LOC_UNIT_JIE_DU_SHI_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>唐朝特色军队指挥官。移动速度更快，但是维护费用为4金币。驻扎在区块中时，此城市生产陆地单位+50%生产力效用，此城市中的大都护府+2金币。</Text>
+      <Text>唐朝特色军队指挥官。移动速度更快，但是维护费用为4 [icon:YIELD_GOLD] 金币。驻扎在区块中时，此城市生产陆地单位+50% [icon:YIELD_PRODUCTION] 生产力效用，此城市中的大都护府+2 [icon:YIELD_GOLD] 金币。</Text>
     </Replace>
     <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
       <Text>节度使，为中国古代官名。唐朝始设，原仅掌地方军权，后通过兼任采访使、营田使、度支使掌控行政权和财政权，成为地方最高军政长官。</Text>
@@ -347,7 +347,7 @@
       <Text>{LOC_UNIT_JIE_DU_SHI_NAME}</Text>
     </Replace>
     <Replace Tag="LOC_ABILITY_JIE_DU_SHI_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>驻扎在区块中时，此城市生产陆地单位+50%生产力效用，此城市中的大都护府+2金币。</Text>
+      <Text>驻扎在区块中时，此城市生产陆地单位+50%[icon:YIELD_PRODUCTION]生产力效用，此城市中的大都护府+2[icon:YIELD_GOLD]金币。</Text>
     </Replace>
 
     <!-- civics -->

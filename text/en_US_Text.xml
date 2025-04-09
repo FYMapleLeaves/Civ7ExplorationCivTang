@@ -3,6 +3,539 @@
 
     <EnglishText>
 
+        <!-- civilization -->
+        <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_NAME" >
+            <Text>Tang</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_ADJECTIVE" >
+            <Text>Tang</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVILIZATION_TANG_CHINA_FULLNAME" >
+            <Text>Tang Empire</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_TANG_CHINA_CHAPTER_HISTORY_PARA_1" >
+            <Text>The Tang Dynasty rose to prominence amidst the chaos at the end of the Sui Dynasty. Emperor Taizong, Li Shimin, devoted himself to diligent governance, ushering in the "Zhenguan Era of Good Governance." He refined the Three Departments and Six Ministries system, implemented the Equal-field, Tax System, and pacified the Turkic threats along the borders, laying the foundation for a golden age. During the Wu Zhou period, the legacy of Zhenguan continued, and the early reign of Emperor Xuanzong reached its zenith in the "Kaiyuan Prosperous Age." The empire's territory stretched east to Korea and west to Central Asia, with the "Anxi Frontier Command" governing the Western Regions. The capital, Chang'an, became an international metropolis where envoys from all nations paid tribute. The Silk Road trade flourished unprecedentedly, with markets bustling amid "fat-glutinous rice and snow-white millet" (a poetic depiction of abundance). Poetry, Buddhism, and exotic music and dance blended harmoniously, while Japanese Kentōshi (embassies to Tang China) arrived in an endless stream, showcasing the open and inclusive grandeur of the Tang Empire.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_CIVILIZATION_TANG_CHINA_CHAPTER_HISTORY_PARA_2" >
+            <Text>However, after the outbreak of the An-Shi Rebellion (also known as An Lushan Rebellion), the central authority suffered a heavy blow, the division of Fazhen (military towns with great autonomy), the dictatorship of eunuchs and the intertwining of Niu and Li party disputes worsened, and the Huangchao Rebellion completely destroyed the economic foundation, and the Tang Dynasty was finally replaced by the divided Five Dynasties and Ten Kingdoms.</Text>
+        </Replace>
+
+        <!-- loading info -->
+        <Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_TANG_CHINA" >
+            <Text>The Tang Dynasty (618 AD - 907 AD) was a influential dynasty in Chinese history after the Sui Dynasty, with a total of 21 emperors and 289 years.</Text>
+        </Replace>
+        <Replace Tag="LOC_LOADING_INTRO_TANG_CHINA" >
+            <Text>The Tang Dynasty was one of the most powerful countries in the world at that time, with its strong national strength, prosperous economy, active foreign communications, and important institutional achievements. After the Tang Dynasty, overseas mostly called Chinese "Tang people".</Text>
+        </Replace>
+
+        <!-- civilization ability -->
+
+        <Replace Tag="LOC_TRAIT_TANG_CHINA_ABILITY_DESCRIPTION" >
+            <Text>[LIST][LI][B]Palace[/B] [B]+4[icon:YIELD_DIPLOMACY] Influence[/B]. Land military units get [B]+1 Combat Strength[/B] from every [B]farm[/B] in the [B]Capital[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Forbidden City[/B].[/LIST]</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_TANG_CHINA_ABILITY_NAME" >
+            <Text>All nations worship the Weiyang Palace</Text>
+        </Replace>
+
+
+        <Replace Tag="LOC_MOD_CIV_WONDER_PRODUCTION_TANG_CHINA_DESCRIPTION" >
+            <Text>+30%[icon:YIELD_PRODUCTION] Production from being the Tang's associated Wonder.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_TANG_CHINA_COMBAT_STRENGTH_PREVIEW" >
+            <Text>+{1_Amount}from a Farm in the Capital({LOC_CIVILIZATION_TANG_CHINA_NAME})</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_TANG_CHINA_PALACE_DIPLOMACY_DESCRIPTION" >
+            <Text>Palace +4[icon:YIELD_DIPLOMACY] Influence, from {LOC_CIVILIZATION_TANG_CHINA_NAME}</Text>
+        </Replace>
+
+
+        <!-- named places -->
+        <Replace Tag="LOC_RIVER_TANG_JING_NAME" >
+            <Text>Jing River</Text>
+        </Replace>  
+        <Replace Tag="LOC_RIVER_TANG_WEI_NAME" >
+            <Text>Wei River</Text>
+        </Replace> 
+
+        <!-- city names -->
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA1" >
+            <Text>Cháng'ān</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA10" >
+            <Text>Luoyang</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA11" >
+            <Text>Yangzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA12" >
+            <Text>Chengdu</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA13" >
+            <Text>Taiyuan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA14" >
+            <Text>Chenliu</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA15" >
+            <Text>Guangzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA16" >
+            <Text>Suzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA17" >
+            <Text>Yuhang</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA18" >
+            <Text>Bohai</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA19" >
+            <Text>Linhai</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA2" >
+            <Text>Liangzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA20" >
+            <Text>Fuzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA21" >
+            <Text>Quanzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA22" >
+            <Text>Andong Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA23" >
+            <Text>Anbei Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA24" >
+            <Text>Chanyu Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA25" >
+            <Text>Anxi Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA26" >
+            <Text>Beiting Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA27" >
+            <Text>Annan Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA28" >
+            <Text>Guizhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA29" >
+            <Text>Youzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA3" >
+            <Text>Suiyang</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA30" >
+            <Text>Mingzhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA4" >
+            <Text>Xuancheng</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA5" >
+            <Text>Qinghe</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA6" >
+            <Text>Yingchuan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA7" >
+            <Text>Jiangling</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA8" >
+            <Text>Shazhou</Text>
+        </Replace>
+        <Replace Tag="LOC_CITY_NAME_TANG_CHINA9" >
+            <Text>Guazhou</Text>
+        </Replace>
+
+        <!-- citizen names -->
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_1" >
+            <Text>Wu Zetian</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_10" >
+            <Text>Empress Zhangsun</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_2" >
+            <Text>Shangguan Wan'er</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_3" >
+            <Text>Princess Taiping</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_4" >
+            <Text>Yu Xuanji</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_5" >
+            <Text>Liye</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_6" >
+            <Text>Xuetao</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_7" >
+            <Text>Princess Wencheng</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_8" >
+            <Text>Yang Yuhuan</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_FEMALE_9" >
+            <Text>Zhao Princess Pingyang</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_1" >
+            <Text>Li Shimin</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_10" >
+            <Text>Li Longji</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_2" >
+            <Text>Li Bai</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_3" >
+            <Text>Dufu</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_4" >
+            <Text>Wangwei</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_5" >
+            <Text>Li Shangyin</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_6" >
+            <Text>Meng Haoran</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_7" >
+            <Text>Liu Yuxi</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_8" >
+            <Text>Bai Juyi</Text>
+        </Replace>
+        <Replace Tag="LOC_CITIZEN_TANG_CHINA_MALE_9" >
+            <Text>Censhen</Text>
+        </Replace>
+
+        <!-- Unlocks -->
+        <!-- 1-2 -->
+        
+        <Replace Tag="LOC_UNLOCK_PLAY_AS_HAN_TANG_CHINA_TOOLTIP" >
+            <Text>[B]Han[/B] was a precursor Civilization to [B]Tang[/B].</Text>
+        </Replace>
+
+        <Replace Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TANG_CHINA_TOOLTIP" >
+            <Text>[B]Tang[/B] drew inspiration from [B]Confucius[/B].</Text>
+        </Replace>
+
+        <Replace Tag="LOC_UNLOCK_CITY_STATES_TANG_CHINA_DESCRIPTION" >
+            <Text>Be [B]Suzerain[/B] of 2 [B]City-States[/B].</Text>
+        </Replace>
+        <Replace Tag="LOC_UNLOCK_CITY_STATES_TANG_CHINA_TOOLTIP" >
+            <Text>[B]Tang Dynasty[/B] was open and inclusive.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_UNLOCK_SILK_TANG_CHINA_DESCRIPTION" >
+            <Text>Improve three [B]Silk[/B].</Text>
+        </Replace>
+        <Replace Tag="LOC_UNLOCK_SILK_TANG_CHINA_TOOLTIP" >
+            <Text>[B]Silk[/B] was an important commodity to [B]Tang[/B].</Text>
+        </Replace>
+
+        <!-- 2-3 -->
+
+        <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_DESCRIPTION" >
+            <Text>Play as [B]Tang[/B].</Text>
+        </Replace>
+        <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_QING_TOOLTIP" >
+            <Text>[B]Tang[/B] was a precursor Civilization to [B]Qing[/B].</Text>
+        </Replace>
+        <Replace Tag="LOC_UNLOCK_PLAY_AS_TANG_CHINA_MEIJI_TOOLTIP" >
+            <Text>[B]Tang[/B] influenced the development of [B]Meiji Japan[/B].</Text>
+        </Replace>
+
+        <!-- improvement -->
+        <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_NAME" >
+            <Text>Great Frontier Command</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_DESCRIPTION" >
+            <Text>+5[icon:YIELD_CULTURE] Culture. +1[icon:YIELD_DIPLOMACY] Influence Adjacency for Quarters. If built in Settlements you did not found, +1 Trade Route limit with all other Civilizations, and +10 Land Trade Route range. Tang Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. One per Settlement.</Text>
+        </Replace>
+        <Replace Tag="LOC_IMPROVEMENT_TANG_FRONTIER_COMMAND_TOOLTIP" >
+            <Text>If built in Settlements you did not found, +1 Trade Route limit with all other Civilizations, and +10 Land Trade Route range. Tang Unique Improvement. Ageless. Counts as Fortification, +6 Combat Strength when defending. Does not remove Warehouse bonuses on a tile. One per Settlement.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_1" >
+            <Text>The Frontier Commands (also known as Duhufu or Protectorate) were military and political institutions set up by the Han and Tang dynasties to supervise and control ethnic minorities on the border. The Han Dynasty set up the first Frontier Command called "Western Region Protectorate" to control the Western Regions (now Xinjiang of China), and in the later period of the Eastern Han Dynasty and Cao Wei and the Western Jin Dynasty, it was replaced by the "Western Region Chief Administration Bureau". The Tang Dynasty set up six major Frontier Commands, including the Anbei, Anxi, Andong, Annan, Chanyu, and Beiting Frontier Commands, and the governor of the Frontier Commands (Duhufu) was called Duhu.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_2" >
+            <Text>Anxi Frontier Command, also known as "An’xi Protectorate" or "Pacifying West Protectorate", was established by Emperor Taizong of Tang in the Western Regions (now Xinjiang of China) in 640 AD (formerly known as Xizhou Frontier Command), and in September of the same year, Anxi Frontier Command was established in Jiaohe City, and it existed for about 170 years until 808 AD. Anxi Frontier Command and Anxi Great Frontier Command were the names of a military and political institution in the Tang Dynasty that managed the Western Regions in different periods, governing the four main towns of Anxi (Suyab, Kucha, Khotan, Kashgar, and later Suyab were replaced by Karashahr), and the maximum jurisdiction once completely included the north and south of the Tianshan Mountains, and to the west of the Pamir Mountains, even near Persia. After the division of the Beiting Frontier Command during the Wu Zetian period, the Anxi Frontier Command was in charge of the Western Regions south of the Tianshan Mountains.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_IMPROVEMENT_TANG_FRONTIER_COMMAND_CHAPTER_HISTORY_PARA_3" >
+            <Text>After 662 AD, the Tibetan Empire (also known as Tubo) and Tang dynasty repeatedly fought over the four towns of Anxi. From 692 AD to the An-Shi Rebellion (also known as An Lushan Rebellion, 755–763 AD), the situation in Anxi was relatively stable. After the outbreak of the An-Shi Rebellion in 755 AD, a large number of garrisons of the Anxi Frontier Command were transferred to the central China to participate in the suppression of the rebellion, resulting in the emptiness of the Anxi Frontier Command, and the Tibetan Empire took the opportunity to enter Anxi. In 790 AD, the Tibetan Empire captured Khotan and the Beiting Frontier Command. The Tang Dynasty lost contact with Anxi and did not know the survival of Anxi. The time of the final fall of Anxi Frontier Command was not accurately recorded in historical sources.</Text>
+        </Replace>
+
+        <!-- unit -->
+
+        <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" >
+            <Text>Xuanjia cavalry</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_2_DESCRIPTION" >
+            <Text>Tier 2 Tang Unique Cavalry Unit. +3 Combat Strength when defending, +50% bonus from Flanking. Ignores Zone of Control.</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_3_DESCRIPTION" >
+            <Text>Tier 3 Tang Unique Cavalry Unit. +3 Combat Strength when defending, +50% bonus from Flanking. Ignores Zone of Control.</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_BASE_DESCRIPTION" >
+            <Text>Tang Unique Cavalry Unit. +3 Combat Strength when defending, +50% bonus from Flanking. Ignores Zone of Control.</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_DESCRIPTION" >
+            <Text>Tier 1 Tang Unique Cavalry Unit. +3 Combat Strength when defending, +50% bonus from Flanking. Ignores Zone of Control.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_1" >
+            <Text>The Xuanjia cavalry (also known as the Black Armoured Cavalry), was an elite cavalry formed by Li Shimin in the early Tang Dynasty, and it had a certain foundation when Li Yuan raised his army. After defeating Xue Ju and annexing the Longyou cavalry, the Xuanjia army was also greatly strengthened. Li Shimin once used only 1,000 Xuanjia cavalry to defeat Wang Shichong's more than 6,000 soldiers. In the battle of Tiger Prison Pass, which decided the ownership of the China, Dou Jiande led more than 100,000 main forces to help Wang Shichong, and Li Shimin only used 3,500 Xuanjia elite soldiers to reinforce Tiger Prison Pass. However, Dou Jiande was defeated and captured. Subsequently, Wang Shichong of Luoyang was also eliminated. The situation in the China completely turned to the side of the Tang Army.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_2" >
+            <Text>The book "Comprehensive Mirror for Aid in Government" recorded: "Prince Li Shimin of Qin selected over a thousand elite cavalrymen, all clad in black uniforms and dark armor, and divided them into left and right divisions, placing them under the command of Qin Shubao, Cheng Zhijie, Yuchi Jingde, and Zhai Zhangsun. In every battle, Shimin himself donned the black armor and led them as the vanguard, seizing opportunities to attack. Wherever they struck, nothing could withstand them, and the enemy feared them greatly."</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_3" >
+            <Text>After Li Shimin ascended the throne, part of the Xuanjia cavalry was handed over to Li Jing to lead, which played a mainstay role in the Tang Dynasty's war of extermination against the Turks.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_TANG_BLACK_ARMOURED_CAVALRY_CHAPTER_HISTORY_PARA_4" >
+            <Text>There has always been a lot of controversy about whether the armor worn by the Xuanjia cavalry is light or heavy, and whether the horse is wearing armor. A more reasonable explanation is that people wear armor but horses don't. The Xuanjia cavalry may have some heavy cavalry, but even if they did, it was in conjunction with the light cavalry. When the Tang army advanced to the Turks and the Western Regions, the mobility of the cavalry was particularly important, and the cavalry of the Tang army at this time should mostly be light cavalry.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_TANG_BAC_NAME" >
+            <Text>{LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME}</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_TANG_BAC_DESCRIPTION" >
+            <Text>+3 Combat Strength when defending, +50% bonus from Flanking.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_TANG_BAC_COMBAT_PREVIEW" >
+            <Text>+{1_Amount}% bonus from Flanking ({LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME})</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_TANG_BAC_DEFEND_PREVIEW" >
+            <Text>+{Amount} Combat Strength when defending, from {LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME}</Text>
+        </Replace> 
+
+        
+        <!-- Jiedushi -->
+        <Replace Tag="LOC_UNIT_JIE_DU_SHI_NAME" >
+            <Text>Jiedushi</Text>
+        </Replace>
+        <Replace Tag="LOC_UNIT_JIE_DU_SHI_DESCRIPTION" >
+            <Text>Tang Unique Army Commander. Faster, but needs 4 [icon:YIELD_GOLD] Gold for maintenance. +50% [icon:YIELD_PRODUCTION] Production towards training Land Units when stationed on a District, +2 [icon:YIELD_GOLD] Gold for the Great Frontier Command in the settlement.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_1" >
+            <Text>Jiedushi is an ancient Chinese official name. Founded in the Tang Dynasty, it was originally only in charge of local military power, but later also controlled administrative power and financial power, and became the highest local military and political governor.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_2" >
+            <Text>The emergence of Jiedushi was closely tied to border pressures and military reforms during the mid-Tang Dynasty. Facing powerful cavalry forces from nomadic and semi-nomadic tribes, the Tang Empire needed to maintain permanent frontier defenses given the vast distance between border regions and the capital. Initially operating under the fubing (garrison soldiery) system that theoretically required troop rotation every few years, the prolonged warfare led to extended deployments. This resulted in widespread draft evasion and desertion, making the system increasingly unsustainable. Consequently, the fubing system was gradually replaced by a professional recruitment system.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_3" >
+            <Text>During the Tang Dynasty, the expeditionary army commanders gradually evolved into permanent, specialized military governors overseeing regional defense commands. The enormous standing armies incurred substantial maintenance costs that the central treasury could no longer sustain, necessitating the implementation of local garrison farming. Initially, the harvests from these military farms were controlled by the central government. However, this system prevented regional commanders from promptly addressing logistical needs within their jurisdictions, thereby impairing their authority in troop deployment and ultimately weakening the Tang military's combat effectiveness. Consequently, the central government was compelled to decentralize fiscal authority - including even the management of salt pans - to these regional military commanders.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_4" >
+            <Text>In 711 AD, Heba Yansi was appointed as Jiedushi of Hexi while serving as Commander-in-Chief of Liangzhou, marking the formal institutionalization of the Jiedushi position. Under the mercenary recruitment system, Jiedushi gained control over military promotions, enabling them to cultivate personal armies loyal to themselves rather than the central government. Subsequently, when the investigative Cefangshi (imperial inspector) role could also be concurrently held by Jiedushi, these regional commanders consolidated unprecedented power over military, fiscal, and even administrative affairs.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_5" >
+            <Text>The excessive concentration of power in Jiedushi hands eroded the Tang central government's authority. With elite troops concentrated in northern frontier regions while the Central China remained defensively weak, the imperial court struggled to suppress the An-Shi Rebellion promptly when it erupted. Post-rebellion, the Tang realm became fragmented with semi-autonomous Jiedushi and their military provinces (Fanzhen) proliferating across the empire.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_UNIT_JIE_DU_SHI_CHAPTER_HISTORY_PARA_6" >
+            <Text>During the Five Dynasties period, Jiedushi influence peaked—emperors were literally made and unmade at their pleasure, as evidenced by the fact that all founding rulers of Later Liang, Later Tang, Later Jin, Later Han, and Later Zhou had been Jiedushi. It was not until Emperors Taizu and Taizong of Song implemented systematic policies to strip Jiedushi of military, administrative, and financial powers that central authority was restored. The title subsequently devolved into an honorary sinecure devoid of real authority.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_ABILITY_JIE_DU_SHI_NAME" >
+            <Text>{LOC_UNIT_JIE_DU_SHI_NAME}</Text>
+        </Replace>
+        <Replace Tag="LOC_ABILITY_JIE_DU_SHI_DESCRIPTION" >
+            <Text>+50% [icon:YIELD_PRODUCTION] Production towards training Land Units when stationed on a District, +2 [icon:YIELD_GOLD] Gold for the Great Frontier Command in the settlement.</Text>
+        </Replace>
+
+        <!-- civics -->
+        <Replace Tag="LOC_TREE_CIVICS_EX_TANG_NAME" >
+            <Text>Tang Civics</Text>
+        </Replace>
+
+        <!-- The Imperial Examination System -->
+
+        <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_NAME" >
+            <Text>Imperial Examination System</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_QUOTE" >
+            <Text>"The finest talents of the realm now fall within my grasp!"</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_IMPERIAL_EXAMINATION_SYSTEM_QUOTE_AUTHOR" >
+            <Text>Li Shimin</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_1" >
+            <Text>The Imperial Examination System is a system for selecting officials through examinations in ancient China. It is generally believed that the Imperial Examination System sprouted in the Han Dynasty, was formally implemented in the Sui Dynasty, and was inherited and perfected in the Tang Dynasty.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_2" >
+            <Text>During the Han Dynasty, the primary methods of selecting talented individuals from the populace were the Recommendation System and the Direct Appointment System. In 132 AD, reforms to the Recommendation System were implemented based on proposals by Left Imperial Secretary Zuo Xiong. These reforms mandated that nominees for Xiaolian (Filial and Incorrupt) positions had to first pass examinations, establishing a categorized examination system—where Confucian scholars were tested on classical learning, and administrative clerks on memorial writing. During the reign of Emperor Wen of Wei, Chen Group introduced the Nine-Rank System, in which designated officials evaluated candidates based on family background, moral conduct, and other criteria, classifying them into nine grades for official appointment. This system continued through the Western Jin Dynasty and the Six Dynasties period. However, during the Wei-Jin era, the dominance of powerful aristocratic clans led to a de facto situation where "no families of humble origin appeared in the upper ranks, and no influential clans were found in the lower grades", undermining the system's intended meritocratic principles.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_3" >
+            <Text>After the establishment of the Sui Dynasty, the Nine-Rank System was abolished, and officials began to be selected by dividing their disciplines and promoting people. Emperor Wen of Sui and Emperor Yang of Sui both issued edicts to let the local government recommend talents and take examinations in different subjects.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_4" >
+            <Text>In 621 AD, the emperor's edict proposed a regular period of going to the imperial court to take the examination "in October every year", which clarified the method of pre-examination for prefectures and counties, which was equivalent to the "township examination" in later generations, and did not have to be recommended by the government as in the Sui Dynasty.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_5" >
+            <Text>In 622 AD, the Tang Dynasty's edict made it clear that scholars could recommend themselves to participate in the imperial examinations, which marked the birth of the Imperial Examination System, which was characterized by self-examination.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_CHAPTER_HISTORY_PARA_6" >
+            <Text>Wu Zetian founded the "Dianshi" (Palace Examination), as well as the "Wuju" (Military Imperial Examinations).</Text>
+        </Replace>
+
+
+        <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_HAPPINESS_MAINTENANCE_DESCRIPTION" >
+            <Text>+33%[icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_SPECIALIST_CAP_INCREASE_DESCRIPTION" >
+            <Text>Capital +2 Specialist Limit.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_EX_TANG_IMPERIAL_EXAMINATION_SYSTEM_FARM_HAPPINESS_DESCRIPTION" >
+            <Text>Farms +2 [icon:YIELD_HAPPINESS] Happiness.</Text>
+        </Replace>
+
+
+        <!-- pacify the west -->
+        <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_NAME" >
+            <Text>Anxi</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_QUOTE" >
+            <Text>"Morning rain in Weicheng settles light dust; The inn gleams green amid fresh willow hues. I urge you, friend, to drain one last cup of wine — West of Yang Pass, no old friends you’ll find anew."</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_PACIFY_THE_WEST_QUOTE_AUTHOR" >
+            <Text>Wangwei</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_PACIFY_THE_WEST_CHAPTER_HISTORY_PARA_1" >
+            <Text>The Tang Dynasty's expansion into the Western Regions began during the Zhenguan era (640 AD) with the conquest of Gaochang (640 AD) and the establishment of the Anxi Frontier Command. Through military campaigns and a policy of loose rein (jimi) governance, the Tang gradually consolidated control over the Tarim Basin. Its dominance peaked under Emperor Gaozong (657 AD) following the destruction of the Western Turkic Khaganate, extending Tang borders as far west as the Aral Sea. The Tang established the Four Garrisons of Anxi (Kucha, Kashgar, Khotan, and Suyab), creating a governance system sustained by military farming colonies (tuntian) and Silk Road trade.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_PACIFY_THE_WEST_CHAPTER_HISTORY_PARA_2" >
+            <Text>During the Kaiyuan and Tianbao eras (early 8th century), the Anxi Frontier Command and Beiting Frontier Command jointly administered the territories north and south of the Tianshan Mountains, relying on allied nomadic generals (fanjiang) to maintain hegemony—until the Battle of Talas (751 AD), where Tang forces suffered a major defeat against the Abbasid Caliphate. The outbreak of the An-Shi Rebellion (755 AD) forced the Tang to withdraw elite troops from the Western Regions to suppress the revolt. Seizing the opportunity, the Tibetan Empire cut off the Hexi Corridor, leaving the remaining Tang garrisons isolated. They held out for decades before finally collapsing around the late 8th to early 9th century, marking the end of Chinese dynastic rule in Central Asia. This rise and fall of Tang influence in the Western Regions mirrors the dynasty's own trajectory.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MOD_PACIFY_THE_WEST_DIPLO_BONUS_CS_LEVY_UNIT_DESCRIPTION" >
+        <Text>+50%[icon:YIELD_DIPLOMACY] Influence towards Levying Units from City-States.</Text>
+        </Replace>
+
+        <!-- Feiyandougong -->
+        <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_NAME" >
+            <Text>Feiyandougong</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_QUOTE" >
+            <Text>"Layer upon layer of emerald peaks pierce the heavens; Vermilion towers soar above the void, suspended between sky and earth."</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_FEI_YAN_DOU_GONG_QUOTE_AUTHOR" >
+            <Text>Wangbo</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_1" >
+            <Text>Tang Dynasty wooden architecture reached unparalleled heights of engineering. In 687 AD, Empress Wu Zetian commissioned the construction of the Mingtang (Cosmic Hall) in Luoyang. Historical records indicate this structure measured approximately 100 meters in length, width, and height. The subsequent five-story Tiantang (Celestial Tower) was built to such scale that its third-floor gallery overlooked the Mingtang's roof. These twin structures remain the largest wooden buildings ever constructed in world architectural history.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_2" >
+            <Text>As the most distinctive feature of Tang Dynasty architecture, Feiyandougong (also know as flying eaves with dougong brackets) achieved perfect unity of mechanics and aesthetics. The dougong evolved from simple load-bearing components into a composite system integrating structural and decorative functions, developing standardized forms like the 'double-tiered, double-angled seven-step bracket set.' This system not only supported overhanging eaves extending beyond half the column height but also created the dynamic curvature poetically described as 'like a pheasant taking flight.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_3" >
+            <Text>The extant East Main Hall (857 AD) of Foguang Temple on Mount Wutai stands as the quintessential exemplar of Tang timber architecture. Its seven-step dougong bracket system and 3.96-meter overhanging eaves magnificently demonstrate Tang craftsmen's ingenuity. In contrast, the Main Hall of Nanchan Temple (782 CE) epitomizes the precise proportions of smaller-scale Tang structures. Though only ruins remain of the Daming Palace's Hanyuan Hall in the capital Chang'an, reconstruction studies reveal its dougong specifications surpassed even these monastic masterpieces in imperial grandeur.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FEI_YAN_DOU_GONG_CHAPTER_HISTORY_PARA_4" >
+            <Text>These technical achievements not only influenced later structures like the Guanyin Pavilion of Dule Temple in the Liao Dynasty, but were also transmitted to Japan through Jianzhen's eastward voyage, giving rise to iconic overseas constructions such as Nara's Tōshōdai-ji Temple. Ultimately, the flying eaves and dougong bracket system became defining architectural signatures across East Asia.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_HAPPINESS_YIELD_DESCRIPTION" >
+            <Text>Pavilion +2 [icon:YIELD_HAPPINESS] Happiness.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_FEI_YAN_DOU_GONG_PAVILION_RELIC_DESCRIPTION" >
+            <Text>Receive 1 Relic when completed a Pavilion.</Text>
+        </Replace>
+        
+
+        <Replace Tag="LOC_CIVIC_FAN_ZHEN_NAME" >
+            <Text>Fanzhen</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_FAN_ZHEN_QUOTE" >
+            <Text>"The vast sea remains beyond Yu's tamed domains, and the Jimen region has not been fully included in Yao's rule."</Text>
+        </Replace>
+        <Replace Tag="LOC_CIVIC_FAN_ZHEN_QUOTE_AUTHOR" >
+            <Text>Dufu</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_1" >
+            <Text>The emergence of separatist fanzhen (military provinces) in mid-late Tang China stemmed from the central authority's collapse and structural flaws in the military system following the An-Shi Rebellion. During the Tianbao era (742-756 AD), Emperor Xuanzong had already granted excessive military, administrative, and fiscal powers to jiedushi (regional commanders) for frontier defense. The An-Shi Rebellion (755-763 AD) further forced the court to acquiesce to surrendered generals—like Li Baochen and Tian Chengsi—retaining control of Hebei provinces, thereby institutionalizing the seeds of warlordism.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_2" >
+            <Text>Following the An-Shi Rebellion, the 'Three Hebei Provinces' (Weibo, Chengde, and Youzhou) openly defied central authority by hereditary succession of military governors (jiedushi), refusing tax payments and maintaining private armies. This created a de facto autonomy—nominally subordinate, yet effectively beyond imperial control. Meanwhile, revenue-generating provinces in the southeast (e.g., Huainan, Zhexi) and frontier-defense provinces in the northwest (e.g., Fengxiang, Binning) remained cooperative with the central government, as they were crucial for maintaining grain transport (caoyun) and resisting Tibetan incursions.</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_PAGE_NODE_CIVIC_EX_TANG_FAN_ZHEN_CHAPTER_HISTORY_PARA_3" >
+            <Text>During Emperor Dezong's reign (780-805 AD), the 'Rebellion of Four Provinces' and Emperor Xianzong's 'Yuanhe Restoration' (805-820 AD) temporarily curbed the fanzhen warlords' arrogance. However, their reliance on the Shence Army and financial appeasement failed to eradicate the roots of separatism. Following the Huang Chao Rebellion (875-884 AD), emerging warlords like Zhu Wen (Military Governor of Xuanwu) completely marginalized the Tang court, ultimately leading to the fragmentation of the Five Dynasties and Ten Kingdoms period. In this complex relationship of 'simultaneous dependence and antagonism,' the fanzhen provinces served both as tools for maintaining Tang rule and catalysts for its gradual demise - reflecting the fundamental tension between centralized authority and regional autonomy in imperial China.</Text>
+        </Replace>
+
+        <Replace Tag="LOC_MOD_FAN_ZHEN_SETTLEMENT_CAP_INCREASE_DESCRIPTION" >
+            <Text>+2 Settlement Limit.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_FAN_ZHEN_ARMY_COMMANDER_PROMOTION_DESCRIPTION" >
+            <Text>One free Promotion for Jiedushi.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_YIELD_DESCRIPTION" >
+            <Text>+100% [icon:YIELD_GOLD] Gold in Towns with a Specialization.</Text>
+        </Replace>
+        <Replace Tag="LOC_MOD_FAN_ZHEN_SPECIALIZED_TOWN_DEBUFF_DESCRIPTION" >
+            <Text>Every Town with a Specialization provides -3 [icon:YIELD_GOLD] for the Capital.</Text>
+        </Replace>
+
+        <!-- traditions -->
+
+        <!-- Military Recruitment Examinations -->
+        <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_NAME" >
+            <Text>Wuju</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_1" >
+            <Text>+50% [icon:YIELD_PRODUCTION] Production towards building Army Commanders.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_2" >
+            <Text>+50% Army Commander experience.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESCRIPTION" >
+            <Text>{LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_1}{LOC_TRADITION_MILITARY_RECRUITMENT_EXAMINATIONS_DESC_PART_2}</Text>
+        </Replace>
+
+        <!-- Jimi System -->
+        <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_NAME" >
+            <Text>Jimi System</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_1" >
+            <Text>+30%[icon:YIELD_DIPLOMACY] Influence towards initiating and progressing the Befriend Independent Action.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_2" >
+            <Text>Great Frontier Commands receive +2[icon:YIELD_GOLD] Gold for every City-State you are Suzerain of.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_3" >
+            <Text>Great Frontier Commands receive +1[icon:YIELD_DIPLOMACY] Influence for every City-State you are Suzerain of.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_JI_MI_SYSTEM_DESCRIPTION" >
+            <Text>{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_1}{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_2}{LOC_TRADITION_JI_MI_SYSTEM_DESC_PART_3}</Text>
+        </Replace>
+
+        <!-- Tang Poetry -->
+        <Replace Tag="LOC_TRADITION_TANG_POETRY_NAME" >
+            <Text>Tang Poetry</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_TANG_POETRY_DESCRIPTION" >
+            <Text>Great Works provide +3[icon:YIELD_CULTURE] Culture.</Text>
+        </Replace>
+
+        <!-- Mercenary Recruit System -->
+        <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_NAME" >
+            <Text>Mercenary Recruit System</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1" >
+            <Text>+20%[icon:YIELD_GOLD] Gold towards purchasing Military Units.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2" >
+            <Text>But -10%[icon:YIELD_GOLD] Gold in Capital.</Text>
+        </Replace>
+        <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESCRIPTION" >
+            <Text>{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1}{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2}</Text>
+        </Replace>
+
     </EnglishText>
 
 </Database>

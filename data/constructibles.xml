@@ -16,7 +16,7 @@
 	</Buildings>
 	<Improvements>
 		<!-- Civ Unique Improvements -->
-        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" ResourceTier="0" CityBuildable="true" TraitType="TRAIT_TANG_CHINA" SameAdjacentValid="false"/>
+        <Row ConstructibleType="IMPROVEMENT_TANG_FRONTIER_COMMAND" ResourceTier="0" CityBuildable="true" OnePerSettlement="true" TraitType="TRAIT_TANG_CHINA"/>
     </Improvements>
 	<Wonders>
 
