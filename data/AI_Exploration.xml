@@ -50,7 +50,9 @@
     <Row ListType="Tang PseudoYield Biases" Item="PSEUDOYIELD_UNLOCK_CIV_UNIQUE_TRADITION" Value="1000000"/>
     <Row ListType="Tang PseudoYield Biases" Item="PSEUDOYIELD_SLOT_CIV_UNIQUE_TRADITION" Value="100000"/>
 
+    <!-- 紫禁城 -->
     <Row ListType="Tang Constructibles Biases" Item="WONDER_FORBIDDEN_CITY" Value="50" />
+    <!-- 都护府 -->
     <Row ListType="Tang Constructibles Biases" Item="IMPROVEMENT_TANG_FRONTIER_COMMAND" Value="200" />
 
     <!-- 军队预算 -->
