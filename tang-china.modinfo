@@ -4,7 +4,7 @@
 	<Properties>
 		<Name>LOC_MODULE_TANG_CHINA_NAME</Name>
 		<Description>LOC_MODULE_TANG_CHINA_DESCRIPTION</Description>
-		<Authors>LOC_MODULE_TANG_CHINA_AUTHOR</Authors>
+		<Authors>Maple_Leaves</Authors>
 		<Package>MOD</Package>
 	</Properties>
 	<Dependencies>
