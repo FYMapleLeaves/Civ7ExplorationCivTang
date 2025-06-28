@@ -20,6 +20,9 @@
 		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" Locale="en_US" Resolution="1080" Url="fs://game/age-exploration/movies/AT_Ming_1080p.webm" Audio="play_wilco_civ_culture_ming" StopAudio="stop_wilco" Subtitles="fs://game/age-exploration/text/subtitles/wilco_civ_exploration_ming_legacy_culture.vtt" UseCoverFitMode="true" />
 
 
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" Locale="en_US" Resolution="720" Url="fs://game/tang-china/movies/tang_black_armoured_cavalry_720p.webm" Audio="play_wilco_civ_economic_ming" StopAudio="stop_wilco" Subtitles="fs://game/tang-china/text/subtitles/tang_china_end_game.vtt" UseCoverFitMode="true" />
+		<Row MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" Locale="en_US" Resolution="1080" Url="fs://game/tang-china/movies/tang_black_armoured_cavalry_1080p.webm" Audio="play_wilco_civ_economic_ming" StopAudio="stop_wilco" Subtitles="fs://game/tang-china/text/subtitles/tang_china_end_game.vtt" UseCoverFitMode="true" />
+
 	</Movies>
 
 	<EndGameMovies>
@@ -32,10 +35,15 @@
 
 		<!-- Age Transition/Legacy Points Victory -->
 		
-		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_ECONOMIC" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_ECONOMIC" />
+		<!-- <Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_ECONOMIC" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_ECONOMIC" />
 		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_MILITARY" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_MILITARY" />
 		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_SCIENCE" />
-		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_CULTURE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_CULTURE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_LEGACY_CULTURE" /> -->
+
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_ECONOMIC" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_MILITARY" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_SCIENCE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" />
+		<Row CivilizationType="CIVILIZATION_TANG_CHINA" LastCompletedLegacyPath="LEGACY_PATH_EXPLORATION_CULTURE" Priority="200" MovieType="MOVIE_CIVILIZATION_TANG_CHINA_BLACK_ARMOURED_CAVALRY" />
 
 	</EndGameMovies>
 </Database>

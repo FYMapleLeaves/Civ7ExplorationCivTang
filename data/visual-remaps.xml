@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+  <VisualRemaps>
+
+    <!-- 玄甲军 -->
+    <Row>
+        <ID>REMAP_TANG_BLACK_ARMOURED_CAVALRY</ID>
+        <DisplayName>LOC_REMAP_TANG_BLACK_ARMOURED_CAVALRY</DisplayName>
+        <Kind>UNIT</Kind>
+        <From>UNIT_TANG_BLACK_ARMOURED_CAVALRY</From>
+        <To>UNIT_COURSER</To>
+    </Row>
+    <Row>
+        <ID>REMAP_TANG_BLACK_ARMOURED_CAVALRY_2</ID>
+        <DisplayName>LOC_REMAP_TANG_BLACK_ARMOURED_CAVALRY</DisplayName>
+        <Kind>UNIT</Kind>
+        <From>UNIT_TANG_BLACK_ARMOURED_CAVALRY_2</From>
+        <To>UNIT_KNIGHT</To>
+    </Row>
+    <Row>
+        <ID>REMAP_TANG_BLACK_ARMOURED_CAVALRY_3</ID>
+        <DisplayName>LOC_REMAP_TANG_BLACK_ARMOURED_CAVALRY</DisplayName>
+        <Kind>UNIT</Kind>
+        <From>UNIT_TANG_BLACK_ARMOURED_CAVALRY_3</From>
+        <To>UNIT_LANCER</To>
+    </Row>
+
+    <!-- 节度使 -->
+    <Row>
+        <ID>REMAP_JIE_DU_SHI</ID>
+        <DisplayName>LOC_REMAP_JIE_DU_SHI</DisplayName>
+        <Kind>UNIT</Kind>
+        <From>UNIT_JIE_DU_SHI</From>
+        <To>UNIT_ARMY_COMMANDER</To>
+    </Row>
+   
+  </VisualRemaps>
+</Database>

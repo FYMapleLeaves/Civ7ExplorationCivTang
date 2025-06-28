@@ -23,7 +23,7 @@
 
         <!-- loading info -->
         <Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_TANG_CHINA" Language="zh_Hant_HK">
-            <Text>唐朝（618年－907年），是中国历史上继隋朝后的大一统中原王朝，共历二十一帝，享国二百八十九年。</Text>
+            <Text>唐朝（618年－907年），是中国历史上继隋朝后的大一统中原王朝，共历二十一帝，享国二百八十九年。{LOC_LOADING_INTRO_TANG_CHINA}</Text>
         </Replace>
         <Replace Tag="LOC_LOADING_INTRO_TANG_CHINA" Language="zh_Hant_HK">
             <Text>唐朝国力强盛，经济繁荣，对外交往活跃，制度上也有重要建树，是当时世界上最强盛的国家之一。唐以后海外多称中国人为“唐人”。</Text>
@@ -534,6 +534,16 @@
         </Replace>
         <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESCRIPTION" Language="zh_Hant_HK">
             <Text>{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1}{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2}</Text>
+        </Replace>
+
+
+        <!-- Remap -->
+        <Replace Tag="LOC_REMAP_TANG_BLACK_ARMOURED_CAVALRY" Language="zh_Hant_HK">
+            <Text>玄甲军使用骑兵通用模型</Text>
+        </Replace>
+
+        <Replace Tag="LOC_REMAP_JIE_DU_SHI" Language="zh_Hant_HK">
+            <Text>节度使使用指挥官的模型</Text>
         </Replace>
 
     </LocalizedText>

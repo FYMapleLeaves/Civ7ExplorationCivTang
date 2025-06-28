@@ -2,7 +2,7 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_MODULE_TANG_CHINA_NAME">
-			<Text>Exploration Age Civilization: Tang</Text>
+			<Text>Tang dynasty of China (Exploration)</Text>
 		</Row>
 		<Row Tag="LOC_MODULE_TANG_CHINA_DESCRIPTION">
 			<Text>Contains a new exploration age Civilization, the Tang dynasty of China.</Text>

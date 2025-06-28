@@ -23,7 +23,7 @@
 
         <!-- loading info -->
         <Replace Tag="LOC_LOADING_CIV_INTRO_TEXT_TANG_CHINA" >
-            <Text>The Tang Dynasty (618 AD - 907 AD) was a influential dynasty in Chinese history after the Sui Dynasty, with a total of 21 emperors and 289 years.</Text>
+            <Text>The Tang Dynasty (618 AD - 907 AD) was a influential dynasty in Chinese history after the Sui Dynasty, with a total of 21 emperors and 289 years. {LOC_LOADING_INTRO_TANG_CHINA}</Text>
         </Replace>
         <Replace Tag="LOC_LOADING_INTRO_TANG_CHINA" >
             <Text>The Tang Dynasty was one of the most powerful countries in the world at that time, with its strong national strength, prosperous economy, active foreign communications, and important institutional achievements. After the Tang Dynasty, overseas mostly called Chinese "Tang people".</Text>
@@ -274,7 +274,7 @@
         <!-- unit -->
 
         <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_NAME" >
-            <Text>Xuanjia cavalry</Text>
+            <Text>Xuanjia Cavalry</Text>
         </Replace>
         <Replace Tag="LOC_UNIT_TANG_BLACK_ARMOURED_CAVALRY_2_DESCRIPTION" >
             <Text>Tier 2 Tang Unique Cavalry Unit. +3 Combat Strength when defending, +50% bonus from Flanking. Ignores Zone of Control.</Text>
@@ -534,6 +534,15 @@
         </Replace>
         <Replace Tag="LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESCRIPTION" >
             <Text>{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_1}{LOC_TRADITION_MERCENARY_RECRUIT_SYSTEM_DESC_PART_2}</Text>
+        </Replace>
+
+         <!-- Remap -->
+        <Replace Tag="LOC_REMAP_TANG_BLACK_ARMOURED_CAVALRY" >
+            <Text>Xuanjia Cavalry Remap</Text>
+        </Replace>
+
+        <Replace Tag="LOC_REMAP_JIE_DU_SHI" >
+            <Text>Jiedushi Remap</Text>
         </Replace>
 
     </EnglishText>

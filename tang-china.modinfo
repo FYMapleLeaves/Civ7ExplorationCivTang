@@ -127,6 +127,17 @@
 					<Item>data/unlocks-exploration.xml</Item>				
 			
 				</UpdateDatabase>
+				
+				<ImportFiles locale="zh_Hans_CN">
+					<Item>text/zh_Hans_CN/tang_china_end_game.vtt</Item>
+				</ImportFiles>
+				<ImportFiles locale="zh_Hant_HK">
+					<Item>text/zh_Hant_HK/tang_china_end_game.vtt</Item>
+				</ImportFiles>
+
+				<UpdateVisualRemaps>
+					<Item>data/visual-remaps.xml</Item>
+				</UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		
